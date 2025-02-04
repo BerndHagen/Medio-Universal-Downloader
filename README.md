@@ -1,12 +1,13 @@
-# **Medio - YouTube Converter**
+# **Medio - Universal Downloader**
 
-**Medio** is a user-friendly software for downloading YouTube content. Whether you're looking to save videos, extract audio or download entire playlists, Medio provides an all-in-one tool to meet your needs. Its simple, intuitive interface lets you quickly input a YouTube link, choose your desired quality and filename, and start the download with just a few clicks.
+**Medio** is a user-friendly software for downloading video content from various online platforms. Whether you're looking to save videos, extract audio or download entire playlists, Medio provides an all-in-one tool to meet your needs. Its simple, intuitive interface lets you quickly input a URL, choose your desired quality and filename, and start the download with just a few clicks.
 
 ### **Key Features**
 
-- **Video Downloads:** Download YouTube videos in a variety of formats and qualities, so you can enjoy your favorite content offline whenever you need it.
-- **Audio Extraction:** If you only need the audio, Medio makes it easy to extract and download the audio from any YouTube video.
+- **Video Downloads:** Download videos from various platforms in a variety of formats and qualities, so you can enjoy your favorite content offline whenever you need it.
+- **Audio Extraction:** If you only need the audio, Medio makes it easy to extract and download the audio from any supported video.
 - **Playlist Downloads:** With Medio, you can download entire playlists at once, saving you time and effort. This is especially helpful for users who want to bulk-download videos for offline viewing.
+- **Universal Downloads:** Download videos from numerous platforms and websites, making it a truly universal downloader for your media needs.
 
 ### **Supported Formats**
 
@@ -20,9 +21,11 @@ Medio supports a wide range of video and audio formats:
 Medio gives you the flexibility to choose from a wide range of video and audio qualities:
 
 - **Video Quality Options:** `4320p`, `2160p`, `1440p`, `1080p`, `720p`, `480p`, `360p`, `240p`, `144p`
-- **Audio Quality Options:** `160k`, `128k`, `96k`, `64k`, `48k`, `32k`
+- **Audio Quality Options:** `320k`, `256k`, `160k`, `128k`, `96k`, `64k`, `48k`, `32k`
   
-Medio uses the ffmpeg library to recode the audio, ensuring that the final media file matches the user's selected audio quality, even down to `32 kbps` if needed. If the selected audio or video quality isn’t available on YouTube, Medio **automatically** selects the **highest available** quality for the one that isn’t supported, ensuring the best possible result. While Medio can technically support higher audio qualities, YouTube currently caps audio at `160 kbps`, so re-encoding beyond this limit would only increase file size without improving sound quality.
+Medio uses the ffmpeg library to recode the audio, ensuring that the final media file matches the user's selected audio quality, even down to `32 kbps` if needed. If the selected audio or video quality isn't available on the source platform, Medio **automatically** selects the **highest available** quality for the one that isn't supported, ensuring the best possible result.
+
+**Note on URL Validation:** While YouTube URL validations are typically processed quickly, validations for other platforms may take a few additional seconds to complete. This is normal and ensures proper compatibility with various sources.
 
 ## **Table of Contents**
 
@@ -45,40 +48,50 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 ## **System Requirements**
 
 ### **Minimum Requirements**
-- **Operating System:** Windows 7 or higher
-- **Processor:** Dual-core processor (e.g., Intel Core 2 Duo or AMD Athlon X2)
-- **RAM:** 2 GB
-- **Storage:** 200 MB of free disk space
+- **Operating System:** Windows 10 (64-bit)
+- **Processor:** Intel Core i3 or AMD Ryzen 3
+- **RAM:** 4 GB
+- **Storage:** 500 MB of free disk space
 - **Software:** .NET 6.0 Runtime
   - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
-- **Internet:** Internet connection for downloading content and verifying licenses
+- **Internet:** Broadband connection (2 Mbps or faster)
 
 ### **Recommended Requirements**
-- **Operating System:** Windows 7 or higher
-- **Processor:** Quad-core processor (e.g., Intel Core i5 or AMD Ryzen 5)
-- **RAM:** 4 GB or higher
-- **Storage:** 200 MB of free disk space
+- **Operating System:** Windows 10/11 (64-bit)
+- **Processor:** Intel Core i5/i7 or AMD Ryzen 5/7
+- **RAM:** 8 GB or higher
+- **Storage:** 1 GB of free disk space
 - **Software:** .NET 6.0 Runtime
   - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
-- **Internet:** A stable internet connection for optimal performance
+- **Internet:** High-speed broadband connection (10 Mbps or faster)
 
 ## **License Options and Benefits**
 
-Medio is available for **free**, allowing users to download unlimited video and audio files in various formats. By purchasing a Premium License, you can unlock a range of additional features that provide lifetime access, available anytime and from anywhere. Once activated, these features remain permanent unless the software is reinstalled in a new directory or on a different device. In those cases, the license key will need to be redeemed again to restore data from the database. After payment is processed successfully, the Premium License will be automatically sent to your email within **5-10 minutes**.
+Medio is available for **free**, allowing users to download video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
 ### **★--[ Premium License ]--★**
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
-| **Unlimited Bandwidth**         | Download media files at high speeds without any bandwidth restrictions |
-| **Extended History**            | Access a larger download history, expanded from 10 entries to 100      |
-| **Secure Storage**              | Securely retrieve account data from the database using your license key|
+| **Increased Download Speed**    | Experience faster processing with enhanced download speeds             |
+| **Extended History**            | Access an expanded download history of up to 50 entries               |
+| **Secure Storage**              | Access your download history and account data from any device          |
+| **Playlist Downloader**         | Download and process multiple YouTube playlists in batch              |
+
+### **★--[ Ultimate License ]--★**
+
+| **Feature**                     | **Description**                                                        |
+|---------------------------------|------------------------------------------------------------------------|
+| **Unlimited Bandwidth**         | Download media files at maximum speeds without any restrictions        |
+| **Extended History**            | Access a larger download history, expanded to 100 entries             |
+| **Secure Storage**              | Access your download history and account data from any device          |
 | **Additional Resolutions**      | Choose from higher video resolutions, including 2160p and 4320p        |
-| **Playlist Downloader**         | Download and convert multiple media files using the Playlist Downloader |
+| **Playlist Downloader**         | Download playlists from various video platforms                        |
+| **Multi-Platform Support**      | Download from numerous video platforms beyond YouTube                  |
 
 ## **Free Trial License Key**
 
-Experience Medio's Premium features with the free trial license key provided below. This key grants a one-time access to Premium features, including unlimited bandwidth, playlist downloads, expanded history and higher video resolutions, available for up to **10** downloads. 
+Experience selected Premium features with a one-time trial license key. This key provides access to faster download speeds through increased bandwidth, the ability to download YouTube playlists, and expanded history storage of up to 50 entries. The trial is limited to **10** downloads before Premium features are deactivated.
 
 **Unlock Medio's Premium Features:**
 ```yaml
@@ -89,7 +102,7 @@ Once the license key has been redeemed, it becomes invalid and can't be used aga
 
 ## **Getting Started Guide**
 
-Follow these steps to begin downloading from YouTube:
+Follow these steps to begin downloading content:
 
 ### **Step 1: Configure Your Settings**
 
@@ -102,20 +115,21 @@ Follow these steps to begin downloading from YouTube:
 
 ### **Step 2: Download Your Content**
 
-1. **Access the Converter**
-   - Go to the **Converter** tab in the sidebar.
+1. **Access the Downloader**
+   - Go to the **Downloader** tab in the sidebar.
 
 2. **Select Download Type**
-   - Choose whether to download the **video** or extract only the **audio** from a YouTube link.
+   - Choose whether to download the **video** or extract only the **audio** from your URL.
 
-3. **Enter the YouTube URL**
-   - Paste the YouTube link into the input field at the top of the **Converter** page.
+3. **Enter the URL**
+   - Paste the video link into the input field at the top of the **Downloader** page.
+   - Note: YouTube URL validations are typically quick, while other platforms may take a few additional seconds to validate.
 
 4. **Configure Download Options**
 
    - **Save Location:**
      - Click the `...` button next to the directory path field to select your save location.
-     - For playlists, it’s recommended to create a dedicated folder to keep files organized.
+     - For playlists, it's recommended to create a dedicated folder to keep files organized.
      
    - **File Name:**
      - Enter a custom name in the `Title your Video` field.
@@ -128,9 +142,9 @@ Follow these steps to begin downloading from YouTube:
    - Click the `Start Download` button to begin the process.
    - **Monitor Progress:** Check the progress in the upper-right corner of the app. The `Loading Tools` status means **Medio** is preparing your download, which usually takes a few seconds.
 
-**Medio** only processes valid YouTube links. If an unrecognized URL is entered, the software will display an Invalid Link status. Additionally, if a media file with the same name and format already exists in the specified download path, it will be **automatically skipped** during the download process. If the status changes to Network Error, this means the download was interrupted due to a lost Internet connection. To ensure successful downloads, especially when downloading complete playlists, make sure your Internet connection is stable.
+**Medio** processes URLs from various supported platforms. While YouTube links are validated almost instantly, other platforms may require a few additional seconds for validation. If an unrecognized URL is entered, the software will display an Invalid Link status. Additionally, if a media file with the same name and format already exists in the specified download path, it will be **automatically skipped** during the download process. If the status changes to Network Error, this means the download was interrupted due to a lost Internet connection. To ensure successful downloads, especially when downloading complete playlists, make sure your Internet connection is stable.
 
-For further assistance or detailed information, do not hesitate to open an [issue](https://github.com/BerndHagen/Medio-YouTube-Converter/issues). For any questions or to start a discussion, feel free to initiate a [discussion](https://github.com/BerndHagen/Medio-YouTube-Converter/discussions) on the GitHub repository.
+For further assistance or detailed information, do not hesitate to open an [issue](https://github.com/BerndHagen/Medio-Universal-Downloader/issues). For any questions or to start a discussion, feel free to initiate a [discussion](https://github.com/BerndHagen/Medio-Universal-Downloader/discussions) on the GitHub repository.
 
 ## **Updating Software**
 
@@ -143,7 +157,7 @@ To update Medio follow these steps:
 3. Follow the instructions to replace old files with the new updates.
 4. Once the installation is complete, launch the application.
 
-Furthermore, make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - YouTube Converter`. This prevents any issues and ensures that features aren’t blocked due to lack of administrative rights.
+Furthermore, make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - Universal Downloader`. This prevents any issues and ensures that features aren't blocked due to lack of administrative rights.
 
 ## Third-Party Libraries
 
@@ -151,14 +165,14 @@ Medio leverages several third-party libraries to efficiently process media files
 
 ### FFmpeg
 
-**FFmpeg** is a robust multimedia framework essential to Medio’s functionality. It handles video, audio and other multimedia files and streams, enabling tasks such as format conversion and media encoding/decoding.
+**FFmpeg** is a robust multimedia framework essential to Medio's functionality. It handles video, audio and other multimedia files and streams, enabling tasks such as format conversion and media encoding/decoding. Medio automatically checks for and installs the latest FFmpeg version to ensure optimal performance and compatibility.
 
 - **Website:** [FFmpeg Official Website](https://ffmpeg.org)
 - **License:** FFmpeg is licensed under the LGPL or GPL, depending on the configuration and features used.
 
 ### yt-dlp
 
-**yt-dlp** is an open-source command-line tool that enables the downloading of videos from YouTube. Medio integrates yt-dlp to efficiently manage content extraction and downloads, ensuring users can easily access a wide range of sources. This library is regularly updated to stay compatible with the latest website changes and formats.
+**yt-dlp** is an open-source command-line tool that enables the downloading of videos from various platforms. Medio integrates yt-dlp to efficiently manage content extraction and downloads, ensuring users can easily access a wide range of sources. This library is automatically updated by Medio to stay compatible with the latest website changes and formats.
 
 - **Website:** [yt-dlp GitHub Repository](https://github.com/yt-dlp/yt-dlp)
 - **License:** yt-dlp is licensed under the Unlicense, a public domain equivalent license, allowing free use, distribution, and modification.
@@ -170,31 +184,53 @@ For more details about FFmpeg and yt-dlp, including their capabilities and licen
 - **FFmpeg Documentation:** [FFmpeg Documentation](https://ffmpeg.org/documentation.html)
 - **yt-dlp Documentation:** [yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp#readme)
 
-If you have any questions or issues related to these libraries, please [open an issue](https://github.com/BerndHagen/Medio-YouTube-Converter/issues) on GitHub.
+If you have any questions or issues related to these libraries, please [open an issue](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) on GitHub.
 
 ## Data Collection and Account Management
 
-Medio collects account data to improve and personalize your experience. When you install and launch the application for the first time, an account is automatically created in the database, enabling you to start using Medio immediately. The data collected includes:
+Medio collects account data to enhance your experience and provide seamless synchronization across devices. When you install and launch the application for the first time, an account is automatically created in the database. The data collected includes:
 
-- Personal settings
-- Selected avatar
-- Account creation date
+- Personal settings and preferences
+- Selected avatar and profile customizations
+- Account creation date and activity metrics
 - Accumulated experience points and current level
 - Total megabytes downloaded
 - Total number of audio and video files downloaded
-- Number of remaining downloads when using a trial license key
-- Version of Medio being used (e.g., Basic or Premium)
+- Comprehensive download history including titles, URLs, and dates
+- Number of remaining downloads for trial license users
+- Current version status (Basic, Premium, or Ultimate)
 
 ### Key Activation and Data Sync
 
-Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This ensures your preferences and progress are preserved across sessions.
+Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
 
 While most account data is backed up and can be restored from the database, certain data, like your **Download History**, is stored locally on your device. **Locally stored data cannot be recovered** if Medio is reinstalled on a different system, which would result in the loss of your Download History.
 
-- Accounts **without a license key** will be automatically deleted from the database after **180 days** of inactivity.
-- Users with a **Premium License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
+- Accounts with a **Basic License** will be automatically deleted from the database after **180 days** of inactivity to maintain database efficiency.
+- Users with a **Premium** or **Ultimate License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
 
 **Note:** Once an account is deleted from the system, it **cannot be restored**. All associated data is permanently removed and cannot be recovered.
+
+## **Download Status Guide**
+
+Throughout the download and conversion process, Medio provides detailed status information to keep you informed about the current operation. These status indicators help you understand exactly what the application is doing at any given moment, from initial preparation to final conversion. The status messages are designed to be clear and informative, helping you track the progress of your downloads and identify any potential issues that may arise.
+
+Below is a comprehensive list of status messages you may encounter while using Medio:
+
+| Status | Description |
+|--------|-------------|
+| `Loading Tools` | Initializing download components and preparing resources |
+| `Preparing Stream` | Analyzing media source and configuring download parameters |
+| `Invalid Link` | URL is not recognized or supported |
+| `Network Error` | Connection lost during download or insufficient bandwidth |
+| `Premium Required` | Feature requires Premium license activation |
+| `Ultimate Required` | Feature requires Ultimate license activation |
+| `Extract Audio` | Converting video to audio format |
+| `Converting Format` | Transforming media to selected format |
+| `Merging Files` | Combining audio and video streams |
+| `Adding Metadata` | Embedding title, artist, and other information |
+| `Processing Segments` | Handling individual parts of fragmented content |
+| `Completed` | Download and processing successfully finished |
 
 ## **Copyright**
 
@@ -204,7 +240,7 @@ This software is the intellectual property of the Author and is protected by int
 
 2. **Modifications Prohibited**: Any modification, decompiling, reverse-engineering, or derivative work based on the software is strictly prohibited without the Author's prior written consent.
 
-3. **Attribution**: When redistributing Medio - YouTube Converter, appropriate credit to the Author is required, including a link to the original source when applicable.
+3. **Attribution**: When redistributing Medio - Universal Downloader, appropriate credit to the Author is required, including a link to the original source when applicable.
 
 4. **Third-Party Libraries**: Medio leverages third-party libraries like FFmpeg (LGPL) and yt-dlp (Unlicense) for multimedia processing. Please review and comply with their respective licenses.
 
@@ -214,16 +250,16 @@ This software is the intellectual property of the Author and is protected by int
 
 7. **Termination**: The license to use this software may be terminated if the terms of this notice are violated. Upon termination, all use must cease and copies must be deleted.
 
-By using Medio - YouTube Converter, you agree to these terms and conditions. Failure to comply may result in legal action and revocation of your rights to use the software. For full details on licensing terms and further information, please refer to the [LICENSE](https://github.com/BerndHagen/Medio-YouTube-Converter/blob/main/LICENSE) file.
+By using Medio - Universal Downloader, you agree to these terms and conditions. Failure to comply may result in legal action and revocation of your rights to use the software. For full details on licensing terms and further information, please refer to the [LICENSE](https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE) file.
 
 ## **Screenshots**
 
 If you'd like a preview of Medio before downloading, the screenshots below offer a clear overview of the application's features. Please note that future updates may introduce additional functionalities.
 
-| Medio - Dashboard Page       | Medio - Converter Page      | Medio - History Page        |
+| Medio - Dashboard Page       | Medio - Downloader Page     | Medio - History Page        |
 |------------------------------|-----------------------------|-----------------------------|
-| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_dashboard.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_converter.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_history.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_dashboard.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_converter.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_history.png" width="300px"> |
 
 | Medio - Premium Page        | Medio - Activation Page     | Medio - Settings Page      |
 |-----------------------------|-----------------------------|----------------------------|
-| <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_premium.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_redeem.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-YouTube-Converter/raw/main/img/img_v1.5.1-medio_settings.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_premium.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_redeem.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.2-medio_settings.png" width="300px"> |
