@@ -51,7 +51,7 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 - **Operating System:** Windows 10 (64-bit)
 - **Processor:** Intel Core i3 or AMD Ryzen 3
 - **RAM:** 4 GB
-- **Storage:** 500 MB of free disk space
+- **Storage:** 200 MB of free disk space
 - **Software:** .NET 6.0 Runtime
   - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
 - **Internet:** Broadband connection (2 Mbps or faster)
@@ -60,7 +60,7 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 - **Operating System:** Windows 10/11 (64-bit)
 - **Processor:** Intel Core i5/i7 or AMD Ryzen 5/7
 - **RAM:** 8 GB or higher
-- **Storage:** 1 GB of free disk space
+- **Storage:** 300 MB of free disk space
 - **Software:** .NET 6.0 Runtime
   - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
 - **Internet:** High-speed broadband connection (10 Mbps or faster)
