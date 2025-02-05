@@ -30,8 +30,11 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 ## **Table of Contents**
 
 1. [System Requirements](#system-requirements)
+   - [Minimum Requirements](#minimum-requirements)
+   - [Recommended Requirements](#recommended-requirements)
 2. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#license-options-and-benefits)
+   - [Premium License](#--premium-license--)
+   - [Ultimate License](#--ultimate-license--)
 3. [Free Trial License Key](#free-trial-license-key)
 4. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
@@ -40,10 +43,12 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 6. [Third-Party Libraries](#third-party-libraries)
    - [FFmpeg](#ffmpeg)
    - [yt-dlp](#yt-dlp)
+   - [Additional Information](#additional-information)
 7. [Data Collection and Account Management](#data-collection-and-account-management)
-   - [Key Activation and Data Sync](#key-activation-and-data-sync)
-8. [Copyright](#copyright)
-9. [Screenshots](#screenshots)
+8. [Key Activation and Data Sync](#key-activation-and-data-sync)
+9. [Download Status Guide](#download-status-guide)
+10. [Copyright](#copyright)
+11. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
@@ -69,7 +74,7 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 
 Medio is available for **free**, allowing users to download video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
-### **★--[ Premium License ]--★**
+### **★--[ Premium License ]--★
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
@@ -78,7 +83,7 @@ Medio is available for **free**, allowing users to download video and audio file
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Playlist Downloader**         | Download and process multiple YouTube playlists in batch              |
 
-### **★--[ Ultimate License ]--★**
+### **★--[ Ultimate License ]--★
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
@@ -200,7 +205,7 @@ Medio collects account data to enhance your experience and provide seamless sync
 - Number of remaining downloads for trial license users
 - Current version status (Basic, Premium, or Ultimate)
 
-### Key Activation and Data Sync
+## Key Activation and Data Sync
 
 Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
 
