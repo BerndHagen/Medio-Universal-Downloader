@@ -74,7 +74,7 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 
 Medio is available for **free**, allowing users to download video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
-### ★--[ Premium License ]--★
+### » Premium License «
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Medio is available for **free**, allowing users to download video and audio file
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Playlist Downloader**         | Download and process multiple YouTube playlists in batch              |
 
-### ★--[ Ultimate License ]--★
+### » Ultimate License «
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
@@ -222,20 +222,23 @@ Throughout the download and conversion process, Medio provides detailed status i
 
 Below is a comprehensive list of status messages you may encounter while using Medio:
 
-| Status | Description |
-|--------|-------------|
-| `Loading Tools` | Initializing download components and preparing resources |
-| `Preparing Stream` | Analyzing media source and configuring download parameters |
-| `Invalid Link` | URL is not recognized or supported |
-| `Network Error` | Connection lost during download or insufficient bandwidth |
-| `Premium Required` | Feature requires Premium license activation |
+| Status              | Description |
+|---------------------|-------------|
+| `Loading Tools`     | Initializing download components and preparing resources |
+| `Preparing Stream`  | Analyzing media source and configuring download parameters |
+| `Invalid Link`      | URL is not recognized or supported |
+| `Network Error`     | Connection lost during download or insufficient bandwidth |
+| `Premium Required`  | Feature requires Premium license activation |
 | `Ultimate Required` | Feature requires Ultimate license activation |
-| `Extract Audio` | Converting video to audio format |
+| `Extract Audio`     | Converting video to audio format |
 | `Converting Format` | Transforming media to selected format |
-| `Merging Files` | Combining audio and video streams |
-| `Adding Metadata` | Embedding title, artist, and other information |
+| `Merging Files`     | Combining audio and video streams |
+| `Adding Metadata`   | Embedding title, artist, and other information |
 | `Processing Segments` | Handling individual parts of fragmented content |
-| `Completed` | Download and processing successfully finished |
+| `Copyright Error`   | Content is protected by copyright and cannot be downloaded |
+| `Completed`         | Download and processing successfully finished |
+
+> **Note:** In rare circumstances, an `Unknown Error` may occur. This status indicates that an unexpected issue has arisen that has not yet been accounted for. If this error persists, please report it in the GitHub issue section, providing details on what you were attempting to download and your selected settings so the issue can be reproduced and addressed.
 
 ## **Copyright**
 
