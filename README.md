@@ -33,8 +33,8 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
    - [Minimum Requirements](#minimum-requirements)
    - [Recommended Requirements](#recommended-requirements)
 2. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#--premium-license--)
-   - [Ultimate License](#--ultimate-license--)
+   - [Premium License](#license-options-and-benefits)
+   - [Ultimate License](#license-options-and-benefits)
 3. [Free Trial License Key](#free-trial-license-key)
 4. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
@@ -74,7 +74,7 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 
 Medio is available for **free**, allowing users to download video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
-### **★--[ Premium License ]--★
+### ★--[ Premium License ]--★
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Medio is available for **free**, allowing users to download video and audio file
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Playlist Downloader**         | Download and process multiple YouTube playlists in batch              |
 
-### **★--[ Ultimate License ]--★
+### ★--[ Ultimate License ]--★
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
