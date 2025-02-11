@@ -97,7 +97,6 @@ experience and ensure proper functionality. This data includes:
 
 1. User Profile Data
    - Selected avatar (uploaded profile image)
-   - Account creation date
    - Last login date
    - License type (Basic, Premium, or Ultimate)
    - Trial status and usage metrics
@@ -126,7 +125,7 @@ experience and ensure proper functionality. This data includes:
 5. License Information
    - License key activations
    - Geographic activation locations
-   - Hardware identifiers
+   - Hardware identifiers (encrypted)
    - Activation dates and times
    - License validity period
 
