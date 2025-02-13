@@ -47,17 +47,25 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
    - [yt-dlp](#yt-dlp)
    - [Additional Information](#additional-information)
 3. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#license-options-and-benefits)
-   - [Ultimate License](#license-options-and-benefits)
+   - [Premium License](#-premium-license-)
+   - [Ultimate License](#-ultimate-license-)
 4. [Data Collection and Account Management](#data-collection-and-account-management)
 5. [Key Activation and Data Sync](#key-activation-and-data-sync)
 6. [Free Trial License Key](#free-trial-license-key)
 7. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
+     - [Open the Settings Menu](#step-1-configure-your-settings)
+     - [Set Your Preferences](#step-1-configure-your-settings)
    - [Step 2: Download Your Content](#step-2-download-your-content)
+     - [Access the Downloader](#step-2-download-your-content)
+     - [Select Download Type](#step-2-download-your-content)
+     - [Enter the URL](#step-2-download-your-content)
+     - [Configure Download Options](#step-2-download-your-content)
+     - [Initiate the Download](#step-2-download-your-content)
 8. [Download Status Guide](#download-status-guide)
 9. [Updating Software](#updating-software)
 10. [Running Medio on Linux](#running-medio-on-linux)
+    - [Installation Guide](#installation-guide)
 11. [Copyright](#copyright)
 12. [Screenshots](#screenshots)
 
@@ -255,50 +263,29 @@ With the release of **version 1.5.3**, Medio's compatibility with non-Windows op
 
 ### Installation Guide
 
-1. Install required packages for your distribution:
-
-**Ubuntu/Debian:**
+1. Install Wine for your distribution:
 ```yaml
-sudo apt update
-sudo apt install wine64 winetricks
+sudo apt install wine64    # Ubuntu
+sudo dnf install wine      # Fedora
+sudo pacman -S wine        # Arch Linux
 ```
 
-**Fedora:**
+2. Download the Medio setup file from GitHub and save it to your Desktop.
+
+3. Navigate to your Desktop:
 ```yaml
-sudo dnf install wine winetricks
+cd ~/Desktop
 ```
 
-**Arch Linux:**
+4. Install Medio:
 ```yaml
-sudo pacman -S wine winetricks
+wine setup.msi
 ```
 
-2. Set up Wine environment and install .NET 6.0:
+5. After installation completes, you can run Medio directly through Wine:
 ```yaml
-WINEPREFIX=~/.wine/medio winecfg
-WINEPREFIX=~/.wine/medio winetricks dotnet60
+wine "C:\Program Files\Medio\Medio.exe"
 ```
-
-3. Download and install Medio:
-```yaml
-cd ~/Downloads
-WINEPREFIX=~/.wine/medio wine MedioSetup.exe
-```
-
-4. Launch Medio:
-```yaml
-MEDIO_PATH="$HOME/.wine/medio/drive_c/Users/$USER/AppData/Local/Arctisoft-Studio/Medio - Universal Downloader"
-WINEPREFIX=~/.wine/medio wine "$MEDIO_PATH/Medio.exe"
-```
-
-For easier access, create a launch script:
-```yaml
-MEDIO_CMD='WINEPREFIX=~/.wine/medio wine "$HOME/.wine/medio/drive_c/Users/$USER/AppData/Local/Arctisoft-Studio/Medio - Universal Downloader/Medio.exe"'
-echo "$MEDIO_CMD" > ~/medio.sh
-chmod +x ~/medio.sh
-```
-
-Now you can start Medio by running `~/medio.sh`
 
 If you encounter any technical issues during installation or usage, please visit our [GitHub issues page](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) for support.
 
