@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/Arctisoft-Studio/raw/main/img/medio.png" alt="Medio Logo" width="128" />
+  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/35478f3982736dceecb12919411bf22b7adeff97/img/img_v1.5.3-medio.png" alt="Medio Logo" width="128" />
 </p>
 <h1 align="center">Medio - Universal Downloader</h1>
 <p align="center">
