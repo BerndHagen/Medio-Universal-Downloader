@@ -42,23 +42,24 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 1. [System Requirements](#system-requirements)
    - [Minimum Requirements](#minimum-requirements)
    - [Recommended Requirements](#recommended-requirements)
-2. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#license-options-and-benefits)
-   - [Ultimate License](#license-options-and-benefits)
-3. [Free Trial License Key](#free-trial-license-key)
-4. [Getting Started Guide](#getting-started-guide)
-   - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
-   - [Step 2: Download Your Content](#step-2-download-your-content)
-5. [Updating Software](#updating-software)
-6. [Third-Party Libraries](#third-party-libraries)
+2. [Third-Party Libraries](#third-party-libraries)
    - [FFmpeg](#ffmpeg)
    - [yt-dlp](#yt-dlp)
    - [Additional Information](#additional-information)
-7. [Data Collection and Account Management](#data-collection-and-account-management)
-8. [Key Activation and Data Sync](#key-activation-and-data-sync)
-9. [Download Status Guide](#download-status-guide)
-10. [Copyright](#copyright)
-11. [Screenshots](#screenshots)
+3. [License Options and Benefits](#license-options-and-benefits)
+   - [Premium License](#license-options-and-benefits)
+   - [Ultimate License](#license-options-and-benefits)
+4. [Data Collection and Account Management](#data-collection-and-account-management)
+5. [Key Activation and Data Sync](#key-activation-and-data-sync)
+6. [Free Trial License Key](#free-trial-license-key)
+7. [Getting Started Guide](#getting-started-guide)
+   - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
+   - [Step 2: Download Your Content](#step-2-download-your-content)
+8. [Download Status Guide](#download-status-guide)
+9. [Updating Software](#updating-software)
+10. [Running Medio on Linux](#running-medio-on-linux)
+11. [Copyright](#copyright)
+12. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
@@ -80,6 +81,33 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
   - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
 - **Internet:** High-speed broadband connection (10 Mbps or faster)
 
+## Third-Party Libraries
+
+Medio leverages several third-party libraries to efficiently process media files and deliver a seamless user experience. The two primary libraries are **FFmpeg** and **yt-dlp**.
+
+### FFmpeg
+
+**FFmpeg** is a robust multimedia framework essential to Medio's functionality. It handles video, audio and other multimedia files and streams, enabling tasks such as format conversion and media encoding/decoding. Medio automatically checks for and installs the latest FFmpeg version to ensure optimal performance and compatibility.
+
+- **Website:** [FFmpeg Official Website](https://ffmpeg.org)
+- **License:** FFmpeg is licensed under the LGPL or GPL, depending on the configuration and features used.
+
+### yt-dlp
+
+**yt-dlp** is an open-source command-line tool that enables the downloading of videos from various platforms. Medio integrates yt-dlp to efficiently manage content extraction and downloads, ensuring users can easily access a wide range of sources. This library is automatically updated by Medio to stay compatible with the latest website changes and formats.
+
+- **Website:** [yt-dlp GitHub Repository](https://github.com/yt-dlp/yt-dlp)
+- **License:** yt-dlp is licensed under the Unlicense, a public domain equivalent license, allowing free use, distribution, and modification.
+
+### Additional Information
+
+For more details about FFmpeg and yt-dlp, including their capabilities and licensing, refer to their official documentation:
+
+- **FFmpeg Documentation:** [FFmpeg Documentation](https://ffmpeg.org/documentation.html)
+- **yt-dlp Documentation:** [yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp#readme)
+
+If you have any questions or issues related to these libraries, please [open an issue](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) on GitHub.
+
 ## **License Options and Benefits**
 
 Medio is available for **free**, allowing users to download video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
@@ -89,20 +117,45 @@ Medio is available for **free**, allowing users to download video and audio file
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
 | **Increased Download Speed**    | Experience faster processing with enhanced download speeds             |
-| **Extended History**            | Access an expanded download history of up to 50 entries               |
+| **Extended History**            | Access an expanded download history of up to 50 entries                |
 | **Secure Storage**              | Access your download history and account data from any device          |
-| **Playlist Downloader**         | Download and process multiple YouTube playlists in batch              |
+| **Playlist Downloader**         | Download and process multiple YouTube playlists in batch               |
 
 ### » Ultimate License «
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
 | **Unlimited Bandwidth**         | Download media files at maximum speeds without any restrictions        |
-| **Extended History**            | Access a larger download history, expanded to 100 entries             |
+| **Extended History**            | Access a larger download history, expanded to 100 entries              |
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Additional Resolutions**      | Choose from higher video resolutions, including 2160p and 4320p        |
 | **Playlist Downloader**         | Download playlists from various video platforms                        |
 | **Multi-Platform Support**      | Download from numerous video platforms beyond YouTube                  |
+
+## Data Collection and Account Management
+
+Medio collects account data to enhance your experience and provide seamless synchronization across devices. When you install and launch the application for the first time, an account is automatically created in the database. The data collected includes:
+
+- Personal settings and preferences
+- Selected avatar and profile customizations
+- Account creation date and activity metrics
+- Accumulated experience points and current level
+- Total megabytes downloaded
+- Total number of audio and video files downloaded
+- Comprehensive download history including titles, URLs, and dates
+- Number of remaining downloads for trial license users
+- Current version status (Basic, Premium, or Ultimate)
+
+## Key Activation and Data Sync
+
+Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
+
+While most account data is backed up and can be restored from the database, certain data, like your **Download History**, is stored locally on your device. **Locally stored data cannot be recovered** if Medio is reinstalled on a different system, which would result in the loss of your Download History.
+
+- Accounts with a **Basic License** will be automatically deleted from the database after **180 days** of inactivity to maintain database efficiency.
+- Users with a **Premium** or **Ultimate License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
+
+**Note:** Once an account is deleted from the system, it **cannot be restored**. All associated data is permanently removed and cannot be recovered.
 
 ## **Free Trial License Key**
 
@@ -157,74 +210,7 @@ Follow these steps to begin downloading content:
    - Click the `Start Download` button to begin the process.
    - **Monitor Progress:** Check the progress in the upper-right corner of the app. The `Loading Tools` status means **Medio** is preparing your download, which usually takes a few seconds.
 
-**Medio** processes URLs from various supported platforms. While YouTube links are validated almost instantly, other platforms may require a few additional seconds for validation. If an unrecognized URL is entered, the software will display an Invalid Link status. Additionally, if a media file with the same name and format already exists in the specified download path, it will be **automatically skipped** during the download process. If the status changes to Network Error, this means the download was interrupted due to a lost Internet connection. To ensure successful downloads, especially when downloading complete playlists, make sure your Internet connection is stable.
-
-For further assistance or detailed information, do not hesitate to open an [issue](https://github.com/BerndHagen/Medio-Universal-Downloader/issues). For any questions or to start a discussion, feel free to initiate a [discussion](https://github.com/BerndHagen/Medio-Universal-Downloader/discussions) on the GitHub repository.
-
-## **Updating Software**
-
-To ensure Medio continues to perform at its best, it's important to keep it updated. Updates not only introduce new features but also fix bugs that could cause issues, such as incomplete downloads or errors during conversion. Running an outdated version may lead to problems due to outdated files. You can check your current version by locating the Build Number in the bottom left corner of the application, which helps you determine if a newer version is available on the GitHub repository.
-
-To update Medio follow these steps:
-
-1. Download the latest version from the repository and save it to your device.
-2. Open the downloaded **ZIP** file and start the setup to begin the installation.
-3. Follow the instructions to replace old files with the new updates.
-4. Once the installation is complete, launch the application.
-
-Furthermore, make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - Universal Downloader`. This prevents any issues and ensures that features aren't blocked due to lack of administrative rights.
-
-## Third-Party Libraries
-
-Medio leverages several third-party libraries to efficiently process media files and deliver a seamless user experience. The two primary libraries are **FFmpeg** and **yt-dlp**.
-
-### FFmpeg
-
-**FFmpeg** is a robust multimedia framework essential to Medio's functionality. It handles video, audio and other multimedia files and streams, enabling tasks such as format conversion and media encoding/decoding. Medio automatically checks for and installs the latest FFmpeg version to ensure optimal performance and compatibility.
-
-- **Website:** [FFmpeg Official Website](https://ffmpeg.org)
-- **License:** FFmpeg is licensed under the LGPL or GPL, depending on the configuration and features used.
-
-### yt-dlp
-
-**yt-dlp** is an open-source command-line tool that enables the downloading of videos from various platforms. Medio integrates yt-dlp to efficiently manage content extraction and downloads, ensuring users can easily access a wide range of sources. This library is automatically updated by Medio to stay compatible with the latest website changes and formats.
-
-- **Website:** [yt-dlp GitHub Repository](https://github.com/yt-dlp/yt-dlp)
-- **License:** yt-dlp is licensed under the Unlicense, a public domain equivalent license, allowing free use, distribution, and modification.
-
-### Additional Information
-
-For more details about FFmpeg and yt-dlp, including their capabilities and licensing, refer to their official documentation:
-
-- **FFmpeg Documentation:** [FFmpeg Documentation](https://ffmpeg.org/documentation.html)
-- **yt-dlp Documentation:** [yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp#readme)
-
-If you have any questions or issues related to these libraries, please [open an issue](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) on GitHub.
-
-## Data Collection and Account Management
-
-Medio collects account data to enhance your experience and provide seamless synchronization across devices. When you install and launch the application for the first time, an account is automatically created in the database. The data collected includes:
-
-- Personal settings and preferences
-- Selected avatar and profile customizations
-- Account creation date and activity metrics
-- Accumulated experience points and current level
-- Total megabytes downloaded
-- Total number of audio and video files downloaded
-- Comprehensive download history including titles, URLs, and dates
-- Number of remaining downloads for trial license users
-- Current version status (Basic, Premium, or Ultimate)
-
-## Key Activation and Data Sync
-
-Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
-
-While most account data is backed up and can be restored from the database, certain data, like your **Download History**, is stored locally on your device. **Locally stored data cannot be recovered** if Medio is reinstalled on a different system, which would result in the loss of your Download History.
-
-- Accounts with a **Basic License** will be automatically deleted from the database after **180 days** of inactivity to maintain database efficiency.
-- Users with a **Premium** or **Ultimate License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
-
-**Note:** Once an account is deleted from the system, it **cannot be restored**. All associated data is permanently removed and cannot be recovered.
+**Medio** processes URLs from various supported platforms. While YouTube links are validated almost instantly, other platforms may require a few additional seconds for validation. If an unrecognized URL is entered, the software will display an `Invalid Link` status. Additionally, if a media file with the same name and format already exists in the specified download path, it will be **automatically skipped** during the download process. If the status changes to `Network Error`, this means the download was interrupted due to a lost Internet connection. To ensure successful downloads, especially when downloading complete playlists, make sure your Internet connection is stable.
 
 ## **Download Status Guide**
 
@@ -248,7 +234,73 @@ Below is a comprehensive list of status messages you may encounter while using M
 | `Copyright Error`   | Content is protected by copyright and cannot be downloaded |
 | `Completed`         | Download and processing successfully finished |
 
-> **Note:** In rare circumstances, an `Unknown Error` may occur. This status indicates that an unexpected issue has arisen that has not yet been accounted for. If this error persists, please report it in the GitHub issue section, providing details on what you were attempting to download and your selected settings so the issue can be reproduced and addressed.
+In rare circumstances, an `Unknown Error` may occur. This status indicates that an unexpected issue has arisen that has not yet been accounted for. If this error persists, please report it in the [GitHub issue section](https://github.com/BerndHagen/Medio-Universal-Downloader/issues), providing details on what you were attempting to download and your selected settings so the issue can be reproduced and addressed.
+
+## **Updating Software**
+
+To ensure Medio continues to perform at its best, it's important to keep it updated. Updates not only introduce new features but also fix bugs that could cause issues, such as incomplete downloads or errors during conversion. Running an outdated version may lead to problems due to outdated files. You can check your current version by locating the Build Number in the bottom left corner of the application, which helps you determine if a newer version is available on the GitHub repository.
+
+To update Medio follow these steps:
+
+1. Download the latest version from the repository and save it to your device.
+2. Open the downloaded **ZIP** file and start the setup to begin the installation.
+3. Follow the instructions to replace old files with the new updates.
+4. Once the installation is complete, launch the application.
+
+Furthermore, make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - Universal Downloader`. This prevents any issues and ensures that features aren't blocked due to lack of administrative rights.
+
+## Running Medio on Linux
+
+With the release of **version 1.5.3**, Medio's compatibility with non-Windows operating systems has been significantly improved. While the application remains **primarily** optimized for **Windows**, Linux users can now run Medio through `Wine` with enhanced stability. However, please note that some features might not function exactly as they do on Windows, despite the efforts to ensure cross-platform compatibility. Visual elements like the **Verdana** font are **not natively supported** on Linux, resulting in slightly different font rendering.
+
+### Installation Guide
+
+1. Install required packages for your distribution:
+
+**Ubuntu/Debian:**
+```yaml
+sudo apt update
+sudo apt install wine64 winetricks
+```
+
+**Fedora:**
+```yaml
+sudo dnf install wine winetricks
+```
+
+**Arch Linux:**
+```yaml
+sudo pacman -S wine winetricks
+```
+
+2. Set up Wine environment and install .NET 6.0:
+```yaml
+WINEPREFIX=~/.wine/medio winecfg
+WINEPREFIX=~/.wine/medio winetricks dotnet60
+```
+
+3. Download and install Medio:
+```yaml
+cd ~/Downloads
+WINEPREFIX=~/.wine/medio wine MedioSetup.exe
+```
+
+4. Launch Medio:
+```yaml
+MEDIO_PATH="$HOME/.wine/medio/drive_c/Users/$USER/AppData/Local/Arctisoft-Studio/Medio - Universal Downloader"
+WINEPREFIX=~/.wine/medio wine "$MEDIO_PATH/Medio.exe"
+```
+
+For easier access, create a launch script:
+```yaml
+MEDIO_CMD='WINEPREFIX=~/.wine/medio wine "$HOME/.wine/medio/drive_c/Users/$USER/AppData/Local/Arctisoft-Studio/Medio - Universal Downloader/Medio.exe"'
+echo "$MEDIO_CMD" > ~/medio.sh
+chmod +x ~/medio.sh
+```
+
+Now you can start Medio by running `~/medio.sh`
+
+If you encounter any technical issues during installation or usage, please visit our [GitHub issues page](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) for support.
 
 ## **Copyright**
 
