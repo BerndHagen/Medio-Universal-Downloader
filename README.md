@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/e0fbdef87e0b6a4f514e20087e56f8b0239f9b45/img/img_v1.5.5-medio.png" alt="Medio Logo" width="128" />
+  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/6ed6fb1aa6f46ef37befbd9c73e4f4cae3d04867/img/img_v1.5.5-medio.png" alt="Medio Logo" width="128" />
 </p>
 <h1 align="center">Medio - Universal Downloader</h1>
 <p align="center">
@@ -293,7 +293,7 @@ If you encounter any technical issues during installation or usage, please visit
 
 ## **Hardware Acceleration**
 
-Medio supports advanced hardware acceleration capabilities to optimize video processing performance. This feature uses your system's GPU resources for enhanced media handling, resulting in significant improvements to download speeds and conversion efficiency.
+Medio supports advanced hardware acceleration capabilities to optimize video processing performance. This feature uses your system's GPU resources for enhanced media handling, resulting in significant improvements to conversion speeds.
 
 | Processing Type | Benefits |
 |----------------|----------|
