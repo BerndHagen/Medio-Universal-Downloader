@@ -310,16 +310,6 @@ Hardware acceleration provides several key advantages for media processing:
 - **Resource Optimization:** Intelligent distribution of workload between CPU and GPU resources
 - **Power Efficiency:** Reduced system resource utilization during intensive operations
 
-### **System Recommendations**
-
-For optimal hardware acceleration performance:
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **GPU** | NVIDIA GTX 1060 / AMD RX 570 | NVIDIA RTX 3060 / AMD RX 6600 or better |
-| **Driver** | Latest WHQL certified | Latest WHQL certified |
-| **VRAM** | 4 GB | 8 GB or more |
-
 **Note:** While hardware acceleration is available on most modern systems, performance benefits may vary based on your specific hardware configuration and the complexity of the media being processed.
 
 ## **Copyright**
