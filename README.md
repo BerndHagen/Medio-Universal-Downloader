@@ -7,7 +7,7 @@
   <b>Experience a fast, reliable and feature-rich universal downloader optimized for performance.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/BerndHagen/Medio-Universal-Downloader/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/Medio-Universal-Downloader?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Commercial-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/6.0/runtime"><img src="https://img.shields.io/badge/.NET-6.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
+  <a href="https://github.com/BerndHagen/Medio-Universal-Downloader/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/Medio-Universal-Downloader?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Commercial-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/8.0/runtime"><img src="https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
 </p>
 
 **Medio** is a user-friendly software for downloading video content from various online platforms. Whether you're looking to save videos, extract audio or download entire playlists, Medio provides an all-in-one tool to meet your needs. Its simple, intuitive interface lets you quickly input a URL, choose your desired quality and filename, and start the download with just a few clicks.
@@ -77,8 +77,8 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 - **Processor:** Intel Core i3 or AMD Ryzen 3
 - **RAM:** 4 GB
 - **Storage:** 200 MB of free disk space
-- **Software:** .NET 6.0 Runtime
-  - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
+- **Software:** .NET 8.0 Runtime
+  - [Download .NET 8.0 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime)
 - **Internet:** Broadband connection (2 Mbps or faster)
 
 ### **Recommended Requirements**
@@ -86,8 +86,8 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
 - **Processor:** Intel Core i5/i7 or AMD Ryzen 5/7
 - **RAM:** 8 GB or higher
 - **Storage:** 300 MB of free disk space
-- **Software:** .NET 6.0 Runtime
-  - [Download .NET 6.0 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
+- **Software:** .NET 8.0 Runtime
+  - [Download .NET 8.0 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime)
 - **Internet:** High-speed broadband connection (10 Mbps or faster)
 
 ## Third-Party Libraries
