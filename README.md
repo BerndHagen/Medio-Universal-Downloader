@@ -293,24 +293,35 @@ If you encounter any technical issues during installation or usage, please visit
 
 ## **Hardware Acceleration**
 
-Medio supports advanced hardware acceleration capabilities to optimize video processing performance. This feature uses your system's GPU resources for enhanced media handling, resulting in significant improvements to conversion speeds.
+Medio supports advanced hardware acceleration capabilities to optimize video processing performance. This feature uses your system's **GPU** resources for enhanced media handling, resulting in significant **improvements to conversion speeds**. The application automatically detects the best hardware acceleration method through FFmpeg's `-hwaccel auto` parameter, which can utilize technologies like **NVIDIA NVENC, AMD AMF** or **Intel QuickSync** depending on your system's hardware.
 
-| Processing Type | Benefits |
-|----------------|----------|
-| **CPU Only** | Basic processing suitable for lower resolution content |
-| **GPU Accelerated** | Optimal for high-resolution videos (1440p-4320p) |
-| **Hybrid Processing** | Balanced workload distribution for maximum efficiency |
+### Processing Types and Benefits
+
+1. **CPU Only Processing**
+   - Basic processing capability
+   - Best suited for lower resolution content
+   - Uses standard system resources
+
+2. **GPU Accelerated Processing**
+   - Optimal for high-resolution videos (1440p-4320p)
+   - Leverages graphics card for enhanced performance
+   - Significantly reduces CPU load
+
+3. **Hybrid Processing**
+   - Balances workload between CPU and GPU
+   - Provides maximum efficiency
+   - Automatically adjusts based on content type
 
 ### **Performance Specifications**
 
 Hardware acceleration provides several key advantages for media processing:
 
-- **Processing Speed:** GPU acceleration reduces CPU load by up to 75%, enabling faster video encoding and decoding
+- **Processing Speed:** GPU acceleration reduces CPU load by up to **75%**, enabling faster video encoding and decoding
 - **Quality Management:** Maintains high-quality output while significantly reducing processing time
 - **Resource Optimization:** Intelligent distribution of workload between CPU and GPU resources
 - **Power Efficiency:** Reduced system resource utilization during intensive operations
 
-**Note:** While hardware acceleration is available on most modern systems, performance benefits may vary based on your specific hardware configuration and the complexity of the media being processed.
+**Note:** While hardware acceleration is available on most modern systems, performance benefits may vary **based on your specific hardware configuration** and the **complexity of the media** being processed.
 
 ## **Copyright**
 
