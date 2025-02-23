@@ -139,7 +139,7 @@ Medio is available for **free**, allowing users to download video and audio file
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Additional Resolutions**      | Choose from higher video resolutions, including 2160p and 4320p        |
 | **Playlist Downloader**         | Download playlists from various video platforms                        |
-| **Multi-Platform Support**      | Download from numerous video platforms beyond YouTube                  |
+| **Multi-Platform Support**      | Download from nearly any website with media content                    |
 
 ## Data Collection and Account Management
 
