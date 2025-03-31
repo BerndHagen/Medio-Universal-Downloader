@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/1621084d07ba5a133ffeee657e6a2bd9c9ff4878/img/img_v1.5.7-medio.png" alt="Medio Logo" width="128" />
+  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/f11f527067f9a37ed0f6fc9123b9f9ce99763c66/img/img_v1.5.7-medio.png" alt="Medio Logo" width="128" />
 </p>
 <h1 align="center">Medio - Universal Downloader</h1>
 <p align="center">
