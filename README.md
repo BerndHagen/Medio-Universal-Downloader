@@ -266,8 +266,8 @@ Starting with **version 1.5.4**, Medio includes an intelligent automatic update 
 If you prefer to update manually or need to troubleshoot update issues, follow these steps:
 
 1. Download the latest version from the repository and save it to your device.
-2. Open the downloaded **ZIP** file and start the setup to begin the installation.
-3. Follow the instructions to replace old files with the new updates.
+2. Run the downloaded **MSI** installer to begin the installation process.
+3. Follow the installation wizard to replace old files with the new updates.
 4. Once the installation is complete, launch the application.
 
 Furthermore, make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - Universal Downloader`. This prevents any issues and ensures that features aren't blocked due to lack of administrative rights.
