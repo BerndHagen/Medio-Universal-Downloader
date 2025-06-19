@@ -159,8 +159,6 @@ Medio collects account data to enhance your experience and provide seamless sync
 
 Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
 
-While most account data is backed up and can be restored from the database, certain data, like your **Download History**, is stored locally on your device. **Locally stored data cannot be recovered** if Medio is reinstalled on a different system, which would result in the loss of your Download History.
-
 - Accounts with a **Basic License** will be automatically deleted from the database after **180 days** of inactivity to maintain database efficiency.
 - Users with a **Premium** or **Ultimate License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
 
