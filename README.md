@@ -47,8 +47,8 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
    - [yt-dlp](#yt-dlp)
    - [Additional Information](#additional-information)
 3. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#-premium-license-)
-   - [Ultimate License](#-ultimate-license-)
+   - [Premium License](#license-options-and-benefits)
+   - [Ultimate License](#license-options-and-benefits)
 4. [Data Collection and Account Management](#data-collection-and-account-management)
 5. [Key Activation and Data Sync](#key-activation-and-data-sync)
 6. [Free Trial License Key](#free-trial-license-key)
@@ -126,20 +126,22 @@ Medio is available for **free**, allowing users to download unlimited video and 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
 | **Increased Download Speed**    | Experience faster processing with enhanced download speeds             |
-| **Extended History**            | Access an expanded download history of up to 50 entries                |
+| **Extended History**            | Access an expanded download history of up to 50 entries   |
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Playlist Downloader**         | Download and process multiple YouTube playlists in batch               |
+| **Permanent Account**           | Account never expires - no 180-day deletion policy                    |
 
 ### » Ultimate License «
 
 | **Feature**                     | **Description**                                                        |
 |---------------------------------|------------------------------------------------------------------------|
 | **Unlimited Bandwidth**         | Download media files at maximum speeds without any restrictions        |
-| **Extended History**            | Access a larger download history, expanded to 100 entries              |
+| **Extended History**            | Access a larger download history, expanded to 100 entries  |
 | **Secure Storage**              | Access your download history and account data from any device          |
 | **Additional Resolutions**      | Choose from higher video resolutions, including 2160p and 4320p        |
 | **Playlist Downloader**         | Download playlists from various video platforms                        |
 | **Multi-Platform Support**      | Download from nearly any website with media content                    |
+| **Permanent Account**           | Account never expires - no 180-day deletion policy                    |
 
 ## Data Collection and Account Management
 
@@ -155,9 +157,11 @@ Medio collects account data to enhance your experience and provide seamless sync
 - Number of remaining downloads for trial license users
 - Current version status (Basic, Premium, or Ultimate)
 
+**Note:** Free/Basic users have unlimited downloads from YouTube, while trial license users have a limited number of downloads for Premium features before reverting to Basic functionality.
+
 ## Key Activation and Data Sync
 
-Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
+Once a key is purchased and redeemed in the Settings tab under **Key Activation**, it can always be used to retrieve the latest account data from Medio's database. This includes your complete download history, personal settings, profile customizations, experience points, usage statistics and license status, ensuring all your preferences and progress are preserved across sessions and devices when using either a Premium or Ultimate license.
 
 - Accounts with a **Basic License** will be automatically deleted from the database after **180 days** of inactivity to maintain database efficiency.
 - Users with a **Premium** or **Ultimate License** linked to their account are **exempt from this time limit** and can maintain their account indefinitely.
@@ -248,7 +252,18 @@ In rare circumstances, an `Unknown Error` may occur. This status indicates that 
 
 To ensure Medio continues to perform at its best, it's important to keep it updated. Updates not only introduce new features but also fix bugs that could cause issues, such as incomplete downloads or errors during conversion. Running an outdated version may lead to problems due to outdated files. You can check your current version by locating the Build Number in the bottom left corner of the application, which helps you determine if a newer version is available on the GitHub repository.
 
-To update Medio follow these steps:
+**Automatic Update Feature (Available since Version 1.5.4):**
+
+Starting with **version 1.5.4**, Medio includes an intelligent automatic update system that streamlines the update process. When you launch the application, Medio automatically checks for newer versions on GitHub and handles the entire update process seamlessly:
+
+- **Automatic Detection:** The application checks for updates on startup and compares your current version with the latest release
+- **Smart Download:** If a newer version is available, Medio automatically downloads the update package
+- **Seamless Installation:** The update is installed automatically with minimal user intervention
+- **Restart Integration:** After installation, the application restarts with the new version ready to use
+
+**Manual Update Process:**
+
+If you prefer to update manually or need to troubleshoot update issues, follow these steps:
 
 1. Download the latest version from the repository and save it to your device.
 2. Open the downloaded **ZIP** file and start the setup to begin the installation.
