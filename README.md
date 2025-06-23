@@ -47,8 +47,6 @@ Medio uses the ffmpeg library to recode the audio, ensuring that the final media
    - [yt-dlp](#yt-dlp)
    - [Additional Information](#additional-information)
 3. [License Options and Benefits](#license-options-and-benefits)
-   - [Premium License](#license-options-and-benefits)
-   - [Ultimate License](#license-options-and-benefits)
 4. [Data Collection and Account Management](#data-collection-and-account-management)
 5. [Key Activation and Data Sync](#key-activation-and-data-sync)
 6. [Free Trial License Key](#free-trial-license-key)
