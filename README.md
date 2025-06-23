@@ -121,27 +121,11 @@ If you have any questions or issues related to these libraries, please [open an 
 
 Medio is available for **free**, allowing users to download unlimited video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
-### » Premium License «
+<p align="center">
+  <img src="img/img_v1.5.7-medio_licenses.gif" alt="Medio Plans" />
+</p>
 
-| **Feature**                     | **Description**                                                        |
-|---------------------------------|------------------------------------------------------------------------|
-| **Increased Download Speed**    | Experience faster processing with enhanced download speeds             |
-| **Extended History**            | Access an expanded download history of up to 50 entries   |
-| **Secure Storage**              | Access your download history and account data from any device          |
-| **Playlist Downloader**         | Download and process multiple YouTube playlists in batch               |
-| **Permanent Account**           | Account never expires - no 180-day deletion policy                    |
-
-### » Ultimate License «
-
-| **Feature**                     | **Description**                                                        |
-|---------------------------------|------------------------------------------------------------------------|
-| **Unlimited Bandwidth**         | Download media files at maximum speeds without any restrictions        |
-| **Extended History**            | Access a larger download history, expanded to 100 entries  |
-| **Secure Storage**              | Access your download history and account data from any device          |
-| **Additional Resolutions**      | Choose from higher video resolutions, including 2160p and 4320p        |
-| **Playlist Downloader**         | Download playlists from various video platforms                        |
-| **Multi-Platform Support**      | Download from nearly any website with media content                    |
-| **Permanent Account**           | Account never expires - no 180-day deletion policy                    |
+Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
 ## Data Collection and Account Management
 
