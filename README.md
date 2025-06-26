@@ -342,10 +342,27 @@ By using Medio - Universal Downloader, you agree to these terms and conditions. 
 
 If you'd like a preview of Medio before downloading, the screenshots below offer a clear overview of the application's features. Please note that future updates may introduce additional functionalities.
 
-| Medio - Dashboard Page       | Medio - Downloader Page     | Medio - History Page        |
-|------------------------------|-----------------------------|-----------------------------|
-| <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_dashboard.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_converter.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_history.png" width="300px"> |
 
-| Medio - Premium Page        | Medio - Activation Page     | Medio - Settings Page      |
-|-----------------------------|-----------------------------|----------------------------|
-| <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_premium.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_redeem.png" width="300px"> | <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_settings.png" width="300px"> |
+<table>
+  <tr>
+    <th>Medio - Dashboard Page</th>
+    <th>Medio - Downloader Page</th>
+    <th>Medio - History Page</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_dashboard.png" alt="Medio Dashboard" width="300"></td>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_converter.png" alt="Medio Downloader" width="300"></td>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_history.png" alt="Medio History" width="300"></td>
+  </tr>
+
+  <tr>
+    <th>Medio - Premium Page</th>
+    <th>Medio - Activation Page</th>
+    <th>Medio - Settings Page</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_premium.png" alt="Medio Premium" width="300"></td>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_redeem.png" alt="Medio Activation" width="300"></td>
+    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_settings.png" alt="Medio Settings" width="300"></td>
+  </tr>
+</table>
