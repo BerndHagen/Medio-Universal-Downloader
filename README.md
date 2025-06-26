@@ -350,9 +350,9 @@ If you'd like a preview of Medio before downloading, the screenshots below offer
     <th>Medio - History Page</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_dashboard.png" alt="Medio Dashboard" width="300"></td>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_converter.png" alt="Medio Downloader" width="300"></td>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_history.png" alt="Medio History" width="300"></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_dashboard.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_dashboard.png" alt="Medio Dashboard" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_converter.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_converter.png" alt="Medio Downloader" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_history.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_history.png" alt="Medio History" width="300"></a></td>
   </tr>
 
   <tr>
@@ -361,8 +361,8 @@ If you'd like a preview of Medio before downloading, the screenshots below offer
     <th>Medio - Settings Page</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_premium.png" alt="Medio Premium" width="300"></td>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_redeem.png" alt="Medio Activation" width="300"></td>
-    <td><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_settings.png" alt="Medio Settings" width="300"></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_premium.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_premium.png" alt="Medio Premium" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_redeem.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_redeem.png" alt="Medio Activation" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.7-medio_settings.png" alt="Medio Settings" width="300"></a></td>
   </tr>
 </table>
