@@ -120,7 +120,7 @@ If you have any questions or issues related to these libraries, please [open an 
 Medio is available for **free**, allowing users to download unlimited video and audio files from YouTube in various formats. Premium and Ultimate licenses provide enhanced features and capabilities for a more comprehensive downloading experience. After completing your purchase through Stripe's secure payment gateway, which supports multiple payment methods including credit cards and digital wallets, you will receive an email from Arctisoft-Studio containing your license key and detailed activation instructions within **5-10 minutes**.
 
 <p align="center">
-  <img src="img/img_v1.5.7-medio_plans.gif" alt="Medio Plans" />
+  <img src="img/img_v1.5.7-medio_licenses.png" alt="Medio Plans" />
 </p>
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
