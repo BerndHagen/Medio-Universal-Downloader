@@ -128,8 +128,8 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Extended download history with more entries to record your recent activity            |          ❌         |          ✔          |           ✔          |
 | Save time by downloading full YouTube playlists with a single click                 |          ❌         |          ✔          |           ✔          |
 | Access your download history and account data from any device anywhere                           |          ❌         |          ✔          |           ✔          |
-| Higher video resolutions including **2160p and 4320p** for premium quality                       |          ❌         |          ❌          |           ✔          |
-| Download from many different websites beyond YouTube for versatile usage                         |          ❌         |          ❌          |           ✔          |
+| Supports high-resolution formats like 2160p and 4320p for sharp quality                     |          ❌         |          ❌          |           ✔          |
+| Download content from numerous supported websites outside of YouTube                       |          ❌         |          ❌          |           ✔          |
 | **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
