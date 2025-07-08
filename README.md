@@ -222,7 +222,7 @@ Follow these steps to start downloading content:
      - **Building Command** – Assembling command arguments for **yt-dlp** and **FFmpeg** based on your settings
      - **Executing** – Running the generated command to download and process the media
      - **Downloading** – Displays live download progress, including speed and segment information
-     - **Converting: X%** – Shows conversion progress, including conversion speed and video duration
+     - **Converting** – Shows conversion progress, including conversion speed and video duration
 
 **Note:** If you enter an unsupported URL, the software will show an `Invalid Link` or `Content Blocked` status. Files with the same name and format in the specified download path will be **automatically skipped**. If the status shows `Network Error`, the download was interrupted due to a lost internet connection. For successful downloads, especially complete playlists, ensure your internet connection is stable.
 
