@@ -220,7 +220,6 @@ Follow these steps to start downloading content:
    - **Monitor Progress:** Check the progress in the upper-right corner. The process includes:
      - **Loading Tools** – *Medio* is initializing required components
      - **Building Command** – Assembling command arguments for **yt-dlp** and **FFmpeg** based on your settings
-     - **Executing** – Running the generated command to download and process the media
      - **Downloading** – Displays live download progress, including speed and segment information
      - **Converting** – Shows conversion progress, including conversion speed and video duration
 
@@ -236,7 +235,6 @@ Below are the status messages you may encounter:
 |------------------------|-------------------------------------------------------------------------|
 | `Loading Tools`        | Initializing download components and preparing resources               |
 | `Building Command`     | Assembling command arguments for yt-dlp and ffmpeg                     |
-| `Executing`            | Running the generated command to process the media                     |
 | `Preparing Next`       | Processing the next video in a playlist after successful download      |
 | `Invalid Link`         | URL is not recognized or supported                                     |
 | `Network Error`        | Connection lost during download or insufficient bandwidth              |
