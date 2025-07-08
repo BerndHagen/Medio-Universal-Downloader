@@ -122,7 +122,7 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Feature                                                                                           | Basic <br> License | Premium<br> License | Ultimate<br> License |
 | ------------------------------------------------------------------------------------------------- | :----------------: | :-----------------: | :------------------: |
 | Download unlimited videos and audios from YouTube without restrictions                        |          ✔         |          ✔          |           ✔          |
-| Hardware-accelerated video and audio conversion on compatible devices       |          ✔         |          ✔          |           ✔          |
+| Automatic hardware-accelerated video conversion using supported GPUs      |          ✔         |          ✔          |           ✔          |
 | Automatically embeds full metadata into downloaded video and audio files             |          ✔         |          ✔          |           ✔          |
 | Increased download speed for faster downloads and improved performance                           |          ❌         |          ✔          |           ✔          |
 | Extended download history with more entries to record your recent activity            |          ❌         |          ✔          |           ✔          |
@@ -131,6 +131,8 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Supports high-resolution formats like 2160p and 4320p for sharp quality                     |          ❌         |          ❌          |           ✔          |
 | Download content from numerous supported websites outside of YouTube                       |          ❌         |          ❌          |           ✔          |
 | **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
+
+Download speed and history limits depend on your license level. Basic users have a download speed of up to **5 MB/s** and can keep **10** entries in their download history. Premium users enjoy faster speeds of up to **25 MB/s** and **50** history entries, while Ultimate users benefit from **unlimited** download speed and can store up to **100** entries.
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
