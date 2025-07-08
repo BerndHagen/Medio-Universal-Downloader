@@ -122,7 +122,7 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Feature                                                                                           | Basic <br> License | Premium<br> License | Ultimate<br> License |
 | ------------------------------------------------------------------------------------------------- | :----------------: | :-----------------: | :------------------: |
 | Download unlimited videos and audios from YouTube without restrictions                        |          ✔         |          ✔          |           ✔          |
-| Automatic hardware-accelerated video conversion using supported GPUs      |          ✔         |          ✔          |           ✔          |
+| Optimized hardware-accelerated video conversion using supported GPUs      |          ✔         |          ✔          |           ✔          |
 | Automatically embeds full metadata into downloaded video and audio files             |          ✔         |          ✔          |           ✔          |
 | Increased download speed for faster downloads and improved performance                           |          ❌         |          ✔          |           ✔          |
 | Extended download history with more entries to record your recent activity            |          ❌         |          ✔          |           ✔          |
