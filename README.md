@@ -117,7 +117,7 @@ If you have questions or issues related to these libraries, please [open an issu
 
 ## **License Options and Benefits**
 
-Medio is **free** for YouTube downloads, allowing unlimited retrieval of video and audio files in multiple formats. Premium licenses unlock features such as **YouTube playlist** downloads, while Ultimate licenses provide support for **additional platforms** beyond YouTube. After purchasing through Stripe's secure payment system, you'll receive your license key via email from Arctisoft-Studio within **5-10 minutes**.
+Medio is **free** for YouTube downloads, allowing unlimited retrieval of video and audio files in multiple formats. Premium licenses unlock features such as **YouTube playlist** downloads, while Ultimate licenses provide support for **additional platforms** beyond YouTube. After purchasing through Stripe's secure payment system, you'll receive your license key via email from Arctisoft-Studio within **5-10 minutes**. 
 
 | Feature                                                                                           | Basic <br> License | Premium<br> License | Ultimate<br> License |
 | ------------------------------------------------------------------------------------------------- | :----------------: | :-----------------: | :------------------: |
@@ -132,7 +132,11 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Download content from numerous supported websites outside of YouTube                       |          ❌         |          ❌          |           ✔          |
 | **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
 
-Download speed and history limits depend on your license level. Basic users have a download speed of up to **5 MB/s** and can keep **10** entries in their download history. Premium users enjoy faster speeds of up to **25 MB/s** and **50** history entries, while Ultimate users benefit from **unlimited** download speed and can store up to **100** entries.
+Download speed and history limits depend on your license level:  
+- **Basic:** Download speed of up to **5 MB/s** and up to **10** download history entries.  
+- **Premium:** Download speed of up to **25 MB/s** and up to **50** download history entries.  
+- **Ultimate:** Download speed **without limits** and up to **100** download history entries.
+
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
