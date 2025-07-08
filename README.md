@@ -119,9 +119,18 @@ If you have questions or issues related to these libraries, please [open an issu
 
 Medio is **free** for YouTube downloads, allowing unlimited retrieval of video and audio files in multiple formats. Premium licenses unlock features such as **YouTube playlist** downloads, while Ultimate licenses provide support for **additional platforms** beyond YouTube. After purchasing through Stripe's secure payment system, you'll receive your license key via email from Arctisoft-Studio within **5-10 minutes**.
 
-<p align="center">
-  <img src="img/img_v1.5.8-medio_licenses.png" alt="Medio Plans" />
-</p>
+| Feature                                                                                           | Basic <br> License | Premium<br> License | Ultimate<br> License |
+| ------------------------------------------------------------------------------------------------- | :----------------: | :-----------------: | :------------------: |
+| Download unlimited videos and audios from YouTube without any restrictions                        |          ✔         |          ✔          |           ✔          |
+| Automatic use of hardware acceleration for video and audio conversion on supported devices       |          ✔         |          ✔          |           ✔          |
+| Automatic embedding of all available metadata into downloaded videos and audio files              |          ✔         |          ✔          |           ✔          |
+| Increased download speed for faster downloads and improved performance                           |          ❌         |          ✔          |           ✔          |
+| Extended download history with additional entries to keep track of recent downloads              |          ❌         |          ✔          |           ✔          |
+| Download complete YouTube playlist at once for bulk downloading convenience                      |          ❌         |          ✔          |           ✔          |
+| Access your download history and account data from any device anywhere                           |          ❌         |          ✔          |           ✔          |
+| Higher video resolutions including **2160p and 4320p** for premium quality                       |          ❌         |          ❌          |           ✔          |
+| Download from many different websites beyond YouTube for versatile usage                         |          ❌         |          ❌          |           ✔          |
+| **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
