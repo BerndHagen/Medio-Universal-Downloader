@@ -121,12 +121,12 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 
 | Feature                                                                                           | Basic <br> License | Premium<br> License | Ultimate<br> License |
 | ------------------------------------------------------------------------------------------------- | :----------------: | :-----------------: | :------------------: |
-| Download unlimited videos and audios from YouTube without any restrictions                        |          ✔         |          ✔          |           ✔          |
-| Automatic use of hardware acceleration for video and audio conversion on supported devices       |          ✔         |          ✔          |           ✔          |
-| Automatic embedding of all available metadata into downloaded videos and audio files              |          ✔         |          ✔          |           ✔          |
+| Download unlimited videos and audios from YouTube without restrictions                        |          ✔         |          ✔          |           ✔          |
+| Hardware-accelerated video and audio conversion on compatible devices       |          ✔         |          ✔          |           ✔          |
+| Automatically embeds full metadata into downloaded video and audio files             |          ✔         |          ✔          |           ✔          |
 | Increased download speed for faster downloads and improved performance                           |          ❌         |          ✔          |           ✔          |
-| Extended download history with additional entries to keep track of recent downloads              |          ❌         |          ✔          |           ✔          |
-| Download complete YouTube playlist at once for bulk downloading convenience                      |          ❌         |          ✔          |           ✔          |
+| Extended download history with more entries to record your recent activity            |          ❌         |          ✔          |           ✔          |
+| Save time by downloading full YouTube playlists with a single click                 |          ❌         |          ✔          |           ✔          |
 | Access your download history and account data from any device anywhere                           |          ❌         |          ✔          |           ✔          |
 | Higher video resolutions including **2160p and 4320p** for premium quality                       |          ❌         |          ❌          |           ✔          |
 | Download from many different websites beyond YouTube for versatile usage                         |          ❌         |          ❌          |           ✔          |
