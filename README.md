@@ -373,19 +373,19 @@ If you'd like a preview of Medio before downloading, the screenshots below show 
     <th>Medio - History Page</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_dashboard.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_dashboard.png" alt="Medio Dashboard" width="300"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_converter.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_converter.png" alt="Medio Downloader" width="300"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_history.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_history.png" alt="Medio History" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_dashboard.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_dashboard.png" alt="Medio Dashboard" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_converter.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_converter.png" alt="Medio Downloader" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_history.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_history.png" alt="Medio History" width="300"></a></td>
   </tr>
 
   <tr>
-    <th>Medio - Premium Page</th>
+    <th>Medio - Licenses Page</th>
     <th>Medio - Activation Page</th>
     <th>Medio - Settings Page</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_premium.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_premium.png" alt="Medio Premium" width="300"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_redeem.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_redeem.png" alt="Medio Activation" width="300"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.8-medio_settings.png" alt="Medio Settings" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_premium.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_licenses.png" alt="Medio Premium" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_redeem.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_redeem.png" alt="Medio Activation" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_settings.png" alt="Medio Settings" width="300"></a></td>
   </tr>
 </table>
