@@ -384,7 +384,7 @@ If you'd like a preview of Medio before downloading, the screenshots below show 
     <th>Medio - Settings Page</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_premium.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_licenses.png" alt="Medio Premium" width="300"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_licenses.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_licenses.png" alt="Medio Premium" width="300"></a></td>
     <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_redeem.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_redeem.png" alt="Medio Activation" width="300"></a></td>
     <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/img/img_v1.5.9-medio_settings.png" alt="Medio Settings" width="300"></a></td>
   </tr>
