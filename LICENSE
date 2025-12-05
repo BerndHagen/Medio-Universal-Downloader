@@ -1,0 +1,340 @@
+This document constitutes the full and exclusive copyright notice for 
+Medio - Universal Downloader. The Software, including its documentation, 
+executable binaries, and associated materials (collectively, "Software"), 
+is protected under international copyright laws and treaties. The Author 
+reserves all rights not expressly granted herein.
+
+>> LICENSE GRANT
+------------------------------
+Subject to the terms of this Copyright Notice, the Author grants you
+a revocable, non-exclusive, non-transferable, limited license to
+download, install, and use the Software for personal, non-commercial
+purposes. This License permits sharing the Software for promotional
+purposes but does not allow modification, sale, or distribution of the
+Software to others.
+
+>> LICENSE SHARING PROHIBITION
+------------------------------
+The license key purchased for the Software is intended for use solely 
+by the original license holder and must not be shared or distributed to 
+others. The Author has the ability to monitor the usage of license keys 
+and can detect if a key is being used by multiple users. Unauthorized 
+sharing of the license key may result in its immediate invalidation by 
+the Author, leading to the key becoming permanently unusable. The Author 
+retains the right to enforce this policy by deactivating the key and 
+taking additional legal measures if necessary. Ensuring the confidentiality
+of your license key is essential for preserving the functionality and security 
+of the Software.
+
+>> ATTRIBUTION
+------------------------------
+When using or redistributing Medio - Universal Downloader, you must 
+provide appropriate credit to the Author, "Bernd Julian Hagen". This includes, 
+but is not limited to, including the Author's name in any documentation, 
+promotional materials, or credits associated with the Software, and providing 
+a link to the original source when possible.
+
+>> THIRD-PARTY LIBRARIES
+------------------------------
+Medio leverages several third-party libraries to deliver a robust user 
+experience, with FFmpeg being the primary tool for multimedia processing. 
+FFmpeg, an open-source project licensed under the GNU Lesser General Public 
+License (LGPL), is essential for handling various media operations within 
+the application. Additionally, Medio utilizes yt-dlp, a public domain tool 
+for downloading media, which operates under the Unlicense. Users should be 
+aware that the use of FFmpeg, yt-dlp, and other integrated libraries within 
+Medio is subject to their respective licenses, and it is recommended to review 
+and comply with these licensing terms.
+
+>> RESTRICTIONS
+------------------------------
+Modification: You are prohibited from altering, modifying, adapting, 
+translating, or creating derivative works of the Software without prior 
+written consent from the Author. Prohibited modifications include, but 
+are not limited to, decompiling, reverse-engineering, disassembling, or 
+otherwise attempting to discover the source code of the Software.
+
+Distribution: Redistribution of the Software is permitted only for 
+promotional purposes and not for commercial use. Any other distribution, 
+including the sale of the Software, is strictly forbidden unless 
+explicitly authorized in writing by the Author.
+
+Commercial Use: Any use of the Software in a commercial context is 
+strictly prohibited under this License, unless a separate agreement 
+is made with the Author.
+
+>> DISCLAIMER OF WARRANTIES
+------------------------------
+The Software is provided "AS IS," without warranty of any kind, 
+express or implied, including but not limited to the warranties of 
+merchantability, fitness for a particular purpose, and 
+non-infringement. In no event shall the Author be liable for any 
+claim, damages, or other liability, whether in an action of contract, 
+tort, or otherwise, arising from, out of, or in connection with the 
+Software or the use or other dealings in the Software.
+
+>> LIMITATION OF LIABILITY
+------------------------------
+To the maximum extent permitted by applicable law, in no event shall 
+the Author be liable for any special, incidental, indirect, or 
+consequential damages whatsoever (including, without limitation, 
+damages for loss of business profits, business interruption, loss of 
+business information, or any other pecuniary loss) arising out of the 
+use of or inability to use the Software, even if the Author has been 
+advised of the possibility of such damages.
+
+>> USER DATA AND PRIVACY
+------------------------------
+Medio collects certain user data to enhance and personalize the user 
+experience and ensure proper functionality. This data includes:
+
+1. User Profile Data
+   - Selected avatar (uploaded profile image)
+   - Last login date
+   - License type (Basic, Premium, or Ultimate)
+   - Trial status and usage metrics
+
+2. Download Statistics
+   - Total number of audio downloads
+   - Total number of video downloads
+   - Total megabytes downloaded
+   - Last downloaded title
+   - Preferred audio and video format settings
+   - Buffer size preferences
+
+3. Progress System
+   - Current experience points (exp)
+   - Maximum experience points (maxexp)
+   - Current level
+   - Achievement tracking
+
+4. Download History
+   - Complete record of downloads including:
+     * Download date and time
+     * Video/audio titles
+     * Source URLs
+     * Unique download identifiers
+
+5. License Information
+   - License key activations
+   - Geographic activation locations
+   - Hardware identifiers (encrypted)
+   - Activation dates and times
+   - License validity period
+
+All user data is securely stored in the database and can be accessed using 
+a valid Premium or Ultimate license key. Basic license accounts are subject 
+to data retention policies and may be removed after 180 days of inactivity.
+
+>> AVATAR GUIDELINES  
+------------------------------
+Medio allows users to upload a profile image (avatar) for their account, 
+which will be displayed in the dashboard section of the software. Users 
+are encouraged to select images that represent them appropriately. However, 
+the uploaded images must adhere to the following rules: they must not contain 
+any explicit, sexual, violent, or otherwise inappropriate content. The Author 
+reserves the right to remove any avatars that violate these guidelines, and 
+users who repeatedly upload inappropriate images may face further actions, 
+including the suspension or termination of their account.
+
+>> PAYMENT AND REFUND POLICY
+------------------------------
+All payments for licenses are processed securely through Stripe's payment 
+gateway. When purchasing a license:
+
+1. Payment Process
+   - Users will be redirected to a secure Stripe payment page
+   - Multiple payment methods are supported (credit cards, digital wallets)
+   - All transactions are encrypted and processed securely
+   - No payment information is stored by the Author
+
+2. License Key Delivery
+   - Upon successful payment, an automatic email will be sent
+   - Email delivery typically occurs within 5-10 minutes
+   - The email contains:
+     * Your unique license key
+     * Detailed activation instructions
+     * Receipt for your purchase
+   - Emails are sent to the address provided during purchase
+
+3. Refund Policy
+   - License keys are non-refundable once issued and delivered
+   - Refunds are only provided if required by applicable law
+   - Users should review features before purchase
+   - Support is available for activation assistance
+
+4. Purchase Issues
+   - For payment-related issues, contact Stripe support
+   - For license key delivery issues, contact the Author
+   - Keep your purchase confirmation email for reference
+
+>> RESPONSIBILITY FOR USE
+------------------------------
+Medio - Universal Downloader is a tool that enables users to download audio 
+and video content from various online platforms. The Software acts solely as 
+a technical tool for downloading content, and the Author bears no responsibility 
+for how users choose to use this tool. Users explicitly acknowledge and agree 
+that:
+
+1. User Actions and Compliance
+   - All actions taken by users while using the Software
+   - Compliance with copyright laws, intellectual property rights, and other 
+     applicable regulations
+   - Any unauthorized downloading, distribution, or use of copyrighted content
+   - Any commercial use of downloaded content without proper rights or licenses
+
+2. Content Rights and Platform Compliance
+   - Users are solely responsible for complying with terms of service of all 
+     platforms from which they download content
+   - The Author is not affiliated with or endorsed by any of the platforms 
+     from which users may download content
+   - Users must verify their right to download and use content before proceeding
+   - The Author is not responsible for any changes in platform policies that 
+     may affect the Software's functionality
+
+3. Adult Content Responsibility
+   - Users must be of legal age to access adult content in their jurisdiction
+   - The Author bears no responsibility for access to age-restricted content
+   - Users are solely responsible for compliance with adult content regulations
+   - The Software does not filter or verify age-restricted content
+   - Users must comply with adult content platform terms of service
+   - Storage and use of adult content must comply with local laws
+
+4. Multi-Platform Usage
+   - The Software is a content-neutral downloading tool
+   - No content restrictions are imposed by the Software itself
+   - Supports downloads from virtually any website providing media content
+   - Compatible with all major content hosting and streaming platforms
+   - Works with any website offering downloadable media, without discrimination
+   - Users are solely responsible for:
+     * Verifying their legal right to access content
+     * Complying with age restrictions where applicable
+     * Following their local laws and regulations
+     * Adhering to platform terms of service
+   - The Author maintains complete neutrality regarding content choices
+   - Support for any platform may change without notice
+   - The Author makes no guarantees about platform compatibility
+   - Platform-specific technical limitations may apply
+
+5. Legal Consequences
+   - Any civil or criminal consequences arising from misuse of the Software
+   - Legal actions taken by copyright holders or authorities
+   - Fines, penalties, or damages related to copyright infringement
+   - Any claims made by third parties regarding content downloaded using the Software
+
+6. Technical Limitations
+   - The Author does not guarantee continuous functionality with all platforms
+   - Platform changes may affect or disable certain Software features
+   - The Author is not obligated to maintain compatibility with any specific platform
+   - Download speed and quality depend on user's internet connection and 
+     platform limitations
+
+7. Indemnification
+   - Users agree to indemnify and hold harmless the Author from any claims,
+     damages, expenses, or costs arising from their use of the Software
+   - This includes legal fees and costs for defending against claims
+   - Users are responsible for any third-party claims related to their use
+   - The indemnification applies worldwide and survives license termination
+
+8. Content Blocking Mechanisms
+   - The Software's content filtering is provided on a best-effort basis
+   - No guarantee of detecting all restricted or copyrighted content
+   - Technical limitations may prevent detection of certain content
+   - Users remain fully responsible regardless of filtering success
+
+9. Jurisdictional Limitations
+   - Users must comply with their local laws and regulations
+   - The Author is not responsible for variations in legal requirements
+   - Users must verify the legality of use in their jurisdiction
+   - The Software may be restricted or prohibited in certain regions
+
+10. Server and Bandwidth Limitations
+    - The Author is not responsible for server outages or downtime
+    - Download speeds may be limited by platform restrictions
+    - Bandwidth throttling may occur from source platforms
+    - Multiple concurrent downloads may affect performance
+    - Server maintenance or updates may temporarily affect service
+
+11. Geo-Restrictions and Regional Limitations
+    - Content availability varies by geographic location
+    - The Software cannot bypass regional restrictions
+    - Users are responsible for VPN or proxy use
+    - Some features may be unavailable in certain regions
+    - The Author is not liable for geo-blocked content
+
+12. Automated Downloads
+    - Automated or scripted downloading is prohibited
+    - Rate limiting measures may be implemented
+    - Excessive downloading may result in account suspension
+    - The Author reserves the right to limit download frequency
+    - Bot detection systems may block suspicious activity
+
+>> CONTENT FILTERING AND MONITORING
+------------------------------
+1. Copyright Protection Mechanisms
+   - The Software utilizes yt-dlp's content filtering capabilities
+   - Automatic cancellation of downloads for detected copyrighted content
+   - No guarantee of complete copyright detection
+   - Users remain responsible despite these protective measures
+
+2. Platform-Specific Restrictions
+   - Different platforms may have varying download restrictions
+   - Some platforms may block or limit downloads
+   - The Author cannot guarantee successful downloads from any platform
+   - Users must respect platform-specific rate limits and restrictions
+   - Platform changes may affect download capabilities without notice
+
+3. Download Monitoring
+   - The Software may monitor download activities for compliance
+   - Suspicious or abusive behavior may result in license termination
+   - The Author reserves the right to report illegal activities to authorities
+
+4. Content Restrictions
+   - Users must not attempt to circumvent copyright protection measures
+   - Downloads must comply with platform terms of service
+   - The Author may implement additional restrictions as needed
+
+5. Platform Terms Compliance
+   - Users must respect platform-specific terms of service
+   - Download limits set by platforms must be observed
+   - The Author is not responsible for platform account suspensions
+   - Changes in platform policies may affect functionality
+   - Users assume all risks of platform violations
+
+6. Network Security
+   - Users are responsible for their network security
+   - The Software does not provide protection against malware
+   - Downloaded content should be scanned for viruses
+   - The Author is not liable for compromised connections
+   - Users should implement appropriate security measures
+
+>> TERMINATION OF LICENSE
+------------------------------
+The Author reserves the right to terminate your license to use the
+Software at any time if you fail to comply with the terms of this
+Copyright Notice. Upon termination, you must cease all use of the
+Software and delete all copies from your devices.
+
+>> GENERAL TERMS
+------------------------------
+By downloading, installing, or using the Software, you acknowledge 
+that you have read, understood, and agree to be bound by the terms 
+of this Copyright Notice. Violation of any terms of this Notice may 
+result in immediate termination of your license, legal action, and/or 
+penalties as deemed appropriate by the Author and under applicable 
+law.
+
+>> GOVERNING LAW
+------------------------------
+This Copyright Notice shall be governed by and construed in 
+accordance with the laws of the jurisdiction in which the Author 
+resides, without regard to its conflict of law provisions.
+
+>> AMENDMENTS
+------------------------------
+The Author reserves the right to amend or update these terms at any time 
+without notice. Your continued use of the Software after any such changes
+indicates your acceptance of the new terms. This Copyright Notice 
+constitutes the entire agreement between you and the Author regarding the 
+Software and supersedes all prior agreements and understandings, whether 
+written or oral, regarding its subject matter.
