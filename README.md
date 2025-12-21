@@ -64,8 +64,7 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
      - [Initiate the Download](#step-2-download-your-content)
 8. [Download Status Guide](#download-status-guide)
 9. [Updating Software](#updating-software)
-10. [Running Medio on Linux](#running-medio-on-linux)
-    - [Installation Guide](#installation-guide)
+10. [Platform Compatibility](#platform-compatibility)
 11. [Hardware Acceleration](#hardware-acceleration)
 12. [Copyright](#copyright)
 13. [Screenshots](#screenshots)
@@ -78,8 +77,7 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
 - **RAM:** 8 GB
 - **Graphics:** DirectX 11 compatible graphics card with integrated graphics acceptable
 - **Storage:** 500 MB of free disk space plus additional space for downloads
-- **Software:** .NET 8.0 Runtime
-  - [Download .NET 8.0 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime)
+- **Software:** No additional runtime required (self-contained)
 - **Internet:** Stable broadband connection (5 Mbps or faster)
 
 ### **Recommended Requirements**
@@ -91,9 +89,10 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
   - **AMD:** RX 580 or RX 6600 or newer with AMF support
   - **Intel:** Arc A380 or newer with QuickSync support, integrated Iris Xe graphics acceptable
 - **Storage:** 1 GB of free disk space on SSD plus additional space for downloads
-- **Software:** .NET 8.0 Runtime
-  - [Download .NET 8.0 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime)
+- **Software:** No additional runtime required (self-contained)
 - **Internet:** High-speed broadband connection (25 Mbps or faster)
+
+**Note:** Medio is designed exclusively for Windows. Linux and macOS are not supported, even through compatibility layers like Wine.
 
 ## Third-Party Libraries
 
@@ -131,12 +130,12 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Download unlimited videos and audios from YouTube without restrictions                        |          ✔         |          ✔          |           ✔          |
 | Optimized hardware-accelerated video conversion using supported GPUs      |          ✔         |          ✔          |           ✔          |
 | Automatically embeds full metadata into downloaded video and audio files             |          ✔         |          ✔          |           ✔          |
-| Increased download speed for faster downloads and improved performance                           |          ❌         |          ✔          |           ✔          |
-| Extended download history with more entries to record your recent activity            |          ❌         |          ✔          |           ✔          |
-| Save time by downloading full YouTube playlists with a single click                 |          ❌         |          ✔          |           ✔          |
-| Access your download history and account data from any device anywhere                           |          ❌         |          ✔          |           ✔          |
-| Supports high-resolution formats like 2160p and 4320p for sharp quality                     |          ❌         |          ❌          |           ✔          |
-| Download content from numerous supported websites outside of YouTube                       |          ❌         |          ❌          |           ✔          |
+| Increased download speed for faster downloads and improved performance                           |          ✖         |          ✔          |           ✔          |
+| Extended download history with more entries to record your recent activity            |          ✖         |          ✔          |           ✔          |
+| Save time by downloading full YouTube playlists with a single click                 |          ✖         |          ✔          |           ✔          |
+| Access your download history and account data from any device anywhere                           |          ✖         |          ✔          |           ✔          |
+| Supports high-resolution formats like 2160p and 4320p for sharp quality                     |          ✖         |          ✖          |           ✔          |
+| Download content from numerous supported websites outside of YouTube                       |          ✖         |          ✖          |           ✔          |
 | **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
 
 Download speed and history limits depend on your license level:  
@@ -305,37 +304,33 @@ If you prefer to update manually or need to troubleshoot update issues:
 
 Make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-Studio\Medio - Universal Downloader` to prevent issues and ensure features aren't blocked due to lack of administrative rights.
 
-## Running Medio on Linux
+## **Platform Compatibility**
 
-Starting with **version 1.5.5**, Medio works better on non-Windows systems. While the app is still **primarily** optimized for **Windows**, Linux users can now run Medio through `Wine` with improved stability. However, some features might not work exactly as they do on Windows. Visual elements like the **Verdana** font are **not natively supported** on Linux, resulting in slightly different font rendering.
+**Medio is a Windows-only application.** It is built with .NET 8 and WinForms, which are not compatible with Linux or macOS, even through compatibility layers like Wine.
 
-### Installation Guide
+### Why Linux/Wine is Not Supported:
 
-1. Install Wine for your distribution:
-```yaml
-sudo apt install wine64    # Ubuntu
-sudo dnf install wine      # Fedora
-sudo pacman -S wine        # Arch Linux
-```
+- **CoreLib errors**: .NET 8 self-contained builds are incompatible with Wine and will fail to launch
+- **Auto-update system**: Medio's automatic patching functionality cannot work properly under Wine
+- **WinForms dependencies**: The UI framework requires native Windows components that Wine cannot fully replicate
 
-2. Download the Medio setup file from GitHub and save it to your Desktop.
+### Recommended Alternatives for Linux/macOS Users:
 
-3. Navigate to your Desktop:
-```yaml
-cd ~/Desktop
-```
+If you're on Linux or macOS and want to use Medio, consider these options:
 
-4. Install Medio:
-```yaml
-wine setup.msi
-```
+1. **Windows Virtual Machine** (Recommended)
+   - VMware Workstation Player (free for personal use)
+   - VirtualBox (free, open-source)
+   - QEMU/KVM (Linux native)
+   - Parallels Desktop (macOS)
 
-5. After installation, run Medio through Wine:
-```yaml
-wine "C:\Program Files\Medio\Medio.exe"
-```
+2. **Dual Boot** with Windows
+   - Install Windows alongside your Linux/macOS system
 
-If you encounter technical issues during installation or usage, please visit our [GitHub issues page](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) for support.
+3. **Cloud Windows Instance**
+   - Use a cloud-based Windows desktop (Azure Virtual Desktop, AWS WorkSpaces)
+
+We appreciate your interest in Medio, but we cannot provide support for Wine-related issues or non-Windows environments. The application is designed, built, and tested exclusively for Windows.
 
 ## **Hardware Acceleration**
 
