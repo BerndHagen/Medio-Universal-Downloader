@@ -316,7 +316,7 @@ Make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-
 
 ### Recommended Alternatives for Linux/macOS Users:
 
-If you're on Linux or macOS and want to use Medio, consider these options:
+For users on Linux or macOS who want to use Medio, consider these options:
 
 1. **Windows Virtual Machine** (Recommended)
    - VMware Workstation Player (free for personal use)
@@ -330,7 +330,7 @@ If you're on Linux or macOS and want to use Medio, consider these options:
 3. **Cloud Windows Instance**
    - Use a cloud-based Windows desktop (Azure Virtual Desktop, AWS WorkSpaces)
 
-We appreciate your interest in Medio, but we cannot provide support for Wine-related issues or non-Windows environments. The application is designed, built, and tested exclusively for Windows.
+**Note:** Support for Wine-related issues or non-Windows environments is not available. The application is designed, built, and tested exclusively for Windows.
 
 ## **Hardware Acceleration**
 
