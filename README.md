@@ -7,7 +7,7 @@
   <b>Experience a fast, reliable and feature-rich universal downloader optimized for performance.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/BerndHagen/Medio-Universal-Downloader/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/Medio-Universal-Downloader?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Commercial-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/8.0/runtime"><img src="https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
+  <a href="https://github.com/BerndHagen/Medio-Universal-Downloader/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/Medio-Universal-Downloader?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Commercial-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
 </p>
 
 **Medio** is a user-friendly software for downloading video content from various online platforms. Whether you're looking to save videos, extract audio or download entire playlists, Medio provides an all-in-one tool to meet your needs. Its simple, intuitive interface lets you quickly input a URL, choose your desired quality and filename, and start the download with just a few clicks.
@@ -77,7 +77,7 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
 - **RAM:** 8 GB
 - **Graphics:** DirectX 11 compatible graphics card with integrated graphics acceptable
 - **Storage:** 500 MB of free disk space plus additional space for downloads
-- **Software:** No additional runtime required (self-contained)
+- **Software:** .NET 10.0 Runtime ([Download](https://dotnet.microsoft.com/download/dotnet/10.0/runtime)) - **Not required as application is self-contained**
 - **Internet:** Stable broadband connection (5 Mbps or faster)
 
 ### **Recommended Requirements**
@@ -89,10 +89,10 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
   - **AMD:** RX 580 or RX 6600 or newer with AMF support
   - **Intel:** Arc A380 or newer with QuickSync support, integrated Iris Xe graphics acceptable
 - **Storage:** 1 GB of free disk space on SSD plus additional space for downloads
-- **Software:** No additional runtime required (self-contained)
+- **Software:** .NET 10.0 Runtime ([Download](https://dotnet.microsoft.com/download/dotnet/10.0/runtime)) - **Not required as application is self-contained**
 - **Internet:** High-speed broadband connection (25 Mbps or faster)
 
-**Note:** Medio is designed exclusively for Windows. Linux and macOS are not supported, even through compatibility layers like Wine.
+**Note:** Medio is designed exclusively for Windows. Linux and macOS are not supported, even through compatibility layers like Wine. The .NET 10.0 Runtime is bundled directly in the installer, allowing Medio to start immediately without requiring separate installation.
 
 ## Third-Party Libraries
 
@@ -306,11 +306,11 @@ Make sure the installation path is set to `C:\Users\...\AppData\Local\Arctisoft-
 
 ## **Platform Compatibility**
 
-**Medio is a Windows-only application.** It is built with .NET 8 and WinForms, which are not compatible with Linux or macOS, even through compatibility layers like Wine.
+**Medio is a Windows-only application.** It is built with .NET 10 and WinForms, which are not compatible with Linux or macOS, even through compatibility layers like Wine.
 
 ### Why Linux/Wine is Not Supported:
 
-- **CoreLib errors**: .NET 8 self-contained builds are incompatible with Wine and will fail to launch
+- **CoreLib errors**: .NET 10 self-contained builds are incompatible with Wine and will fail to launch
 - **Auto-update system**: Medio's automatic patching functionality cannot work properly under Wine
 - **WinForms dependencies**: The UI framework requires native Windows components that Wine cannot fully replicate
 
