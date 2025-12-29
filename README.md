@@ -49,25 +49,24 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
    - [yt-dlp](#yt-dlp)
    - [Additional Information](#additional-information)
 3. [License Options and Benefits](#license-options-and-benefits)
-4. [Data Collection and Account Management](#data-collection-and-account-management)
-5. [Key Activation and Data Sync](#key-activation-and-data-sync)
+4. [Data Collection and Automatic Profile System](#data-collection-and-automatic-profile-system)
+   - [How It Works](#how-it-works)
+   - [Collected Profile Data](#collected-profile-data)
+5. [License Key Activation and Profile Synchronization](#license-key-activation-and-profile-synchronization)
 6. [Free Trial License Key](#free-trial-license-key)
 7. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
-     - [Open the Settings Menu](#step-1-configure-your-settings)
-     - [Set Your Preferences](#step-1-configure-your-settings)
    - [Step 2: Download Your Content](#step-2-download-your-content)
-     - [Access the Downloader](#step-2-download-your-content)
-     - [Select Download Type](#step-2-download-your-content)
-     - [Enter the URL](#step-2-download-your-content)
-     - [Configure Download Options](#step-2-download-your-content)
-     - [Initiate the Download](#step-2-download-your-content)
-8. [Download Status Guide](#download-status-guide)
-9. [Updating Software](#updating-software)
-10. [Platform Compatibility](#platform-compatibility)
-11. [Hardware Acceleration](#hardware-acceleration)
-12. [Copyright](#copyright)
-13. [Screenshots](#screenshots)
+8. [Advanced Settings](#advanced-settings)
+9. [Download Status Guide](#download-status-guide)
+10. [Updating Software](#updating-software)
+11. [Platform Compatibility](#platform-compatibility)
+    - [Why Linux/Wine is Not Supported](#why-linuxwine-is-not-supported)
+    - [Recommended Alternatives for Linux/macOS Users](#recommended-alternatives-for-linuxmacos-users)
+12. [Hardware Acceleration](#hardware-acceleration)
+    - [Processing Types and Benefits](#processing-types-and-benefits)
+13. [Copyright](#copyright)
+14. [Screenshots](#screenshots)
 
 ## **System Requirements**
 
@@ -133,7 +132,7 @@ Medio is **free** for YouTube downloads, allowing unlimited retrieval of video a
 | Increased download speed for faster downloads and improved performance                           |          ✖         |          ✔          |           ✔          |
 | Extended download history with more entries to record your recent activity            |          ✖         |          ✔          |           ✔          |
 | Save time by downloading full YouTube playlists with a single click                 |          ✖         |          ✔          |           ✔          |
-| Access your download history and account data from any device anywhere                           |          ✖         |          ✔          |           ✔          |
+| Access your download history and profile data from any device anywhere                           |          ✖         |          ✔          |           ✔          |
 | Supports high-resolution formats like 2160p and 4320p for sharp quality                     |          ✖         |          ✖          |           ✔          |
 | Download content from numerous supported websites outside of YouTube                       |          ✖         |          ✖          |           ✔          |
 | **Price**                                                                                        |      **€0.00**     |      **€1.99**      |       **€4.99**      |
@@ -146,30 +145,58 @@ Download speed and history limits depend on your license level:
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
-## Data Collection and Account Management
+## Data Collection and Automatic Profile System
 
-Medio collects account data to improve your experience and sync settings across devices. When you first launch the software, an account is automatically created. The data collected includes:
+Medio uses an automatic, registration-free profile system to enhance your experience and sync settings across devices. **No manual account creation is required** – everything happens automatically in the background.
+
+### How It Works
+
+**First Launch:**
+- When you first start Medio, a unique profile is automatically created
+- Your device is securely identified without requiring any personal information
+- No usernames, passwords, or email addresses are needed
+
+**Data Storage:**
+- Your profile data is securely stored in Medio's cloud database
+- This includes settings, preferences, download history, and license status
+- All data is protected and linked to your unique profile
+
+**Cross-Device Sync (Premium/Ultimate):**
+- When you activate a license key, it becomes linked to your profile
+- Enter the same license key on another device to access your complete profile
+- This syncs your download history, settings, statistics, and license status seamlessly
+
+### Collected Profile Data
+
+Your profile includes:
 
 - Personal settings and preferences
 - Selected avatar and profile customizations
-- Account creation date and activity metrics
+- Profile creation date and activity metrics
 - Experience points and current level
 - Total megabytes downloaded
 - Total number of audio and video files downloaded
-- Download history such as titles and dates (**only if “Track and save downloads in history” is enabled in Advanced Settings**)
+- Download history such as titles, dates and links (**only if "Track and save downloads in history" is enabled in Advanced Settings**)
 - Remaining downloads for trial license users
 - Current license status (Basic, Premium or Ultimate)
 
-**Note:** Your account data is used **solely** for synchronization and feature access. No personal data is shared with third parties. Individual download history entries can be deleted via the context menu.
+**Privacy Note:** Your profile data is used solely for synchronization and feature access. No personal identifying information is collected, and data is not shared with third parties. Individual download history entries can be deleted via the context menu.
 
-## Key Activation and Data Sync
+## License Key Activation and Profile Synchronization
 
-Once you purchase and redeem a key in the Settings tab under **Key Activation**, it can always retrieve your latest account data from Medio's database. This includes your complete download history, settings, profile customizations, experience points, statistics and license status, keeping everything synchronized across sessions and devices when using Premium or Ultimate licenses.
+Your license key serves as both a feature unlock and a profile synchronization tool:
 
-- **Basic License** accounts are automatically deleted after **180 days** of inactivity to maintain database efficiency.
-- **Premium** and **Ultimate License** users are **exempt from this time limit** and can maintain their accounts indefinitely.
+**How License Keys Work:**
+- Each license key is permanently linked to your profile upon first activation
+- Use the same key on multiple devices to access your synchronized profile data
+- Entering your key on a new device instantly retrieves your complete profile
+- Includes download history, settings, customizations, and statistics
 
-**Note:** Once an account is deleted, it **cannot be restored**. All associated data is permanently removed.
+**Profile Retention Policy:**
+- **Basic License:** Profiles inactive for **180 days** are automatically removed to maintain database efficiency
+- **Premium/Ultimate License:** Profiles are maintained indefinitely with no time restrictions
+
+**Important:** Deleted profiles cannot be restored. All associated data is permanently removed.
 
 ## **Free Trial License Key**
 
