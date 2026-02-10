@@ -3,41 +3,27 @@
 </p>
 <h1 align="center">Medio - Universal Downloader</h1>
 <p align="center">
-  <b>Effortlessly download videos, extract high-quality audio and save entire playlists from multiple platforms.</b><br>
-  <b>Experience a fast, reliable and feature-rich universal downloader optimized for performance.</b>
+  <b>A Windows GUI for yt-dlp and FFmpeg with cloud sync, queue processing, and advanced preprocessing.</b>
 </p>
 <p align="center">
   <a href="https://github.com/BerndHagen/Medio-Universal-Downloader/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/Medio-Universal-Downloader?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Freemium-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/Medio-Universal-Downloader/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
 </p>
 
-**Medio** is a user-friendly software for downloading video content from various online platforms. Whether you're looking to save videos, extract audio or download entire playlists, this application provides an all-in-one tool to meet your needs. The simple, intuitive interface lets you quickly input a URL, choose your desired quality and filename, and start the download with just a few clicks.
-
-### **Why Choose This Tool?**
-
-While command-line tools like yt-dlp and FFmpeg are powerful, they require technical knowledge and complex command syntax. This downloader provides:
-
-- **Intuitive Interface:** No command-line experience needed - everything is accessible through a clean, modern UI
-- **Smart Defaults:** Optimized settings that work out of the box, with advanced options for power users
-- **Batch Processing:** Queue multiple downloads and let them run automatically
-- **Progress Tracking:** Real-time progress bars, speed indicators, and taskbar integration
-- **Error Resilience:** Automatic retry mechanisms and intelligent error handling
-- **Hardware Acceleration:** One-click GPU acceleration for faster processing without manual configuration
-- **Cloud Sync:** Never lose your settings - seamlessly sync preferences across all your devices
+**Medio** is a graphical frontend for [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [FFmpeg](https://ffmpeg.org) that wraps these open-source command-line tools in an accessible Windows interface. It handles video downloads, audio extraction, playlist processing, and provides cloud-synced settings, a batch queue, and an audio processing pipeline on top of the core tools.
 
 ### **Key Features**
 
-- **Video Downloads:** Download videos from various platforms in a variety of formats and qualities, so you can enjoy your favorite content offline whenever you need it.
-- **Audio Extraction:** Extract and download audio from any supported video with just a few clicks.
-- **Playlist Downloads:** Download entire YouTube playlists and mixes at once, saving time and effort - especially helpful for bulk offline viewing.
-- **Queue Functionality:** Add multiple videos for sequential automated downloading with improved resilience for protected content.
-- **Advanced Customization:** Fine-tune downloads with hardware acceleration GPU selection, download speed limits, audio normalization, metadata embedding, and preferred video codecs.
-- **Universal Downloads:** Premium users can access content from 1000+ platforms and websites, making this a truly universal downloader for your media needs.
-- **Audio Processing:** Adjust audio pitch and speed, apply creative effects like reverb, echo, bass boost, 8D audio, or vaporwave.
-- **SponsorBlock Integration:** Premium users can automatically skip or mark sponsored segments in YouTube videos.
-- **Taskbar Integration:** View real-time download progress directly in the Windows taskbar for convenient monitoring without switching windows.
-- **System Notifications:** Receive desktop notifications when downloads complete, with quick access to open the downloaded file or its folder location.
-- **Cloud Profile:** Your settings, statistics, and progress sync automatically across devices - never reconfigure from scratch.
-- **Privacy Control:** Disable download history tracking to prevent URLs and titles from being stored.
+- **Video Downloads:** Download videos in MP4, MKV, AVI, WEBM, WMV, MOV, FLV at resolutions from 144p to 4320p
+- **Audio Extraction:** Extract audio as MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA at bitrates from 32k to 320k
+- **Playlist Processing:** Batch-download YouTube playlists and mixes
+- **Queue System:** Sequential automated downloads with configurable concurrency
+- **Hardware Acceleration:** GPU encoding via NVIDIA NVENC, AMD AMF, or Intel QuickSync
+- **Universal Platform Support (Premium):** Access 1000+ platforms beyond YouTube
+- **Audio Processing (Premium):** Pitch/speed adjustment, reverb, echo, bass boost, 8D audio, vaporwave
+- **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
+- **Taskbar Integration:** Real-time progress in the Windows taskbar
+- **Cloud Sync:** Settings, statistics, and history sync across devices (cross-device sync is Premium)
+- **Privacy Control:** Optionally disable download history tracking
 
 ### **Supported Formats**
 
@@ -140,7 +126,12 @@ If you have questions or issues related to these libraries, please [open an issu
 
 ## **License Options and Benefits**
 
-Medio offers two license tiers: a free Basic tier with full YouTube support and a one-time Premium purchase that unlocks universal platform support and advanced features. After purchasing through Stripe's secure payment system, you'll receive your license key via email from Arctisoft-Studio within **5-10 minutes**. 
+Medio offers two license tiers:
+
+- **Basic (Free):** YouTube support with 1440p max resolution, unlimited download speed
+- **Premium (€7.99 one-time):** 1000+ platforms, 4K/8K, audio processing, cross-device sync
+
+License keys are delivered via email within 5-10 minutes after purchase.
 
 | Feature | Basic | Premium |
 |---------|:-----:|:-------:|
@@ -148,13 +139,13 @@ Medio offers two license tiers: a free Basic tier with full YouTube support and 
 | YouTube (videos, audio, playlists, mixes) | ✔ | ✔ |
 | 1000+ additional platforms (Twitch, Vimeo, SoundCloud, etc.) | – | ✔ |
 | **VIDEO & AUDIO QUALITY** | | |
-| Video quality up to 1080p (Full HD) | ✔ | ✔ |
+| Video quality up to 1440p (QHD) | ✔ | ✔ |
 | Video quality up to 4K and 8K (4320p) | – | ✔ |
 | All audio bitrates (32kbps - 320kbps) | ✔ | ✔ |
 | All video formats (MP4, MKV, AVI, WEBM, WMV, MOV, FLV) | ✔ | ✔ |
 | All audio formats (MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA) | ✔ | ✔ |
 | **DOWNLOAD PERFORMANCE** | | |
-| Download speed limit | 5 MB/s | Unlimited |
+| Download speed | Unlimited | Unlimited |
 | Simultaneous downloads in queue | Up to 3 | Up to 20 |
 | Hardware-accelerated conversion (NVIDIA, AMD, Intel) | ✔ | ✔ |
 | **ENCODING OPTIONS** | | |
@@ -175,7 +166,7 @@ Medio offers two license tiers: a free Basic tier with full YouTube support and 
 | Cloud-synced settings | Current device only | All devices |
 | Cross-device profile synchronization | – | ✔ |
 | Download history | 20 entries (2 pages) | 100 entries (10 pages) |
-| Account persistence | Auto-deletion after 180 days inactivity | Permanent |
+| Account persistence | Auto-deletion after 365 days inactivity | Permanent |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
 When your history reaches its limit, the **oldest entries are automatically removed** to make room for new downloads. Your most recent downloads are always preserved.
@@ -249,12 +240,12 @@ Settings → Advanced → "Track and Save Downloads in History" → Set to **Dis
 ### Data Retention and Deletion
 
 **Account Retention:**
-- **Basic License:** Inactive accounts (no activity for 180 days) are automatically deleted
+- **Basic License:** Inactive accounts (no activity for 365 days) are automatically deleted
 - **Premium License:** Accounts are retained indefinitely
 
 **Deleting Your Data:**
 - **Individual History Entries:** Right-click any entry in the History tab → Delete
-- **Complete Account Deletion:** Navigate to Settings → scroll to "Delete Account" button → confirm twice, or wait 180 days of inactivity for automatic deletion (Basic accounts only)
+- **Complete Account Deletion:** Navigate to Settings → scroll to "Delete Account" button → confirm twice, or wait 365 days of inactivity for automatic deletion (Basic accounts only)
 
 **What Happens When Deleted:**
 - All cloud data is permanently removed
@@ -284,7 +275,7 @@ License keys serve two critical purposes: unlocking Premium features and enablin
    - Your progress, settings, and history remain consistent across all devices
 
 **Important Notes:**
-- **Basic License Limitation:** Basic users cannot sync across devices. If you reinstall Windows or switch computers, you lose access to your profile (automatic deletion after 180 days of inactivity)
+- **Basic License Limitation:** Basic users cannot sync across devices. If you reinstall Windows or switch computers, you lose access to your profile (automatic deletion after 365 days of inactivity)
 - **Premium Benefit:** Your license key is your "passport" to access your profile from any device, anytime
 - **Device Security:** License keys can be activated on up to 2 devices simultaneously for security purposes
 - **Profile Persistence:** Premium profiles are never automatically deleted - they're retained indefinitely
@@ -353,38 +344,41 @@ Follow these steps to start downloading content:
 
 ## **Advanced Settings**
 
-For advanced users, Medio offers an Advanced Settings section accessible from the main navigation, allowing fine-tuned control over download and conversion processes:
+The Advanced Settings panel provides granular control over download and conversion parameters:
 
-- **Video & Audio Quality:** Select preferred resolution (144p–4320p) and bitrate (32k–320k) - Basic users are limited to 1080p max, Premium unlocks up to 4K/8K.
-- **Hardware Acceleration:** Manually select GPU acceleration (NVIDIA NVENC, AMD AMF, Intel QuickSync) or disable for CPU-only processing, with improved detection for legacy hardware.
-- **Download Speed Limit:** Configure maximum download speeds from 1 MB/s to unlimited (Premium) to manage bandwidth usage.
-- **Download History Tracking:** Enable or disable recording of download URLs and titles - when disabled, only statistics are tracked.
-- **Buffer Size:** Adjust download buffer size (1024–9216 KB) for optimal streaming performance depending on your connection.
-- **Concurrent Fragments:** Control the number of simultaneous download fragments (1–16) for faster parallel downloading.
-- **Retry & Timeout:** Configure automatic retry attempts (5–Infinite) and connection timeout thresholds (15–300 seconds) for improved reliability.
-- **Geo-bypass:** Bypass region-locked content restrictions (Disabled, Enabled, US Region) for accessing geographically restricted media.
-- **Subtitle Extraction:** Download subtitle tracks in multiple modes (Disabled, Auto English, All Languages).
-- **SponsorBlock:** Premium feature to automatically skip or mark sponsored segments in YouTube videos.
-- **Audio Normalization:** Adjust volume levels (Disabled, Light, Medium, Strong, Aggressive) for consistent audio playback quality.
-- **Metadata Embedding:** Toggle inclusion of thumbnails and metadata in downloaded files.
-- **Video Codec:** Choose preferred codecs - Basic users can use H.264, Premium users unlock H.265, VP8, VP9, AV1, and MPEG-4.
-- **Video Audio Codec:** Select the audio codec used when downloading video files (Auto, AAC, MP3, Opus, Copy).
-- **Deinterlace:** Process interlaced video content for progressive playback (Disabled, Auto, Force).
-- **Two-Pass Encoding:** Premium feature that enables higher quality encoding at the cost of longer processing time.
-- **FFmpeg Encoding Controls:** Fine-tune encoding with preset selection (Ultrafast–Veryslow), CRF quality values (18–35 or Auto), and thread count configuration for multi-core optimization.
-- **Audio Processing Suite (Premium):** Complete audio processing toolkit including:
-  - Audio pitch adjustment (0.25x - 2.0x)
-  - Audio speed adjustment (0.25x - 2.0x)
-  - Audio enhancement (professional 6-stage mastering chain)
-  - Creative FX (Reverb, Echo, Bass Boost, 8D Audio, Vaporwave)
+**Download Configuration:**
+- Quality selection (144p–4320p video, 32k–320k audio) — Basic: up to 1440p, Premium: up to 4K/8K
+- Download speed limit (1 MB/s to unlimited)
+- Hardware acceleration (NVIDIA NVENC, AMD AMF, Intel QuickSync, CPU-only)
+- Network tuning: concurrent fragments (1–16), retries (5–Infinite), timeout (15–300s)
+- Buffer size (1024–9216 KB)
+- Geo-bypass for region-locked content
+- Subtitle extraction (Disabled, English, All Languages)
+- Download history tracking toggle
+
+**Encoding Options:**
+- Video codec: H.264 (Basic) / H.264, H.265, VP8, VP9, AV1, MPEG-4 (Premium)
+- Video audio codec: Auto, AAC, MP3, Opus, Copy
+- FFmpeg presets (Ultrafast–Veryslow), CRF quality (18–35 or Auto), thread count
+- Two-pass encoding (Premium)
+- Deinterlace (Disabled, Auto, Force)
+- Metadata embedding (thumbnails, title, artist)
+- Audio normalization (5 intensity levels)
+
+**Audio Processing (Premium):**
+- Pitch adjustment (0.25x–2.0x)
+- Speed adjustment (0.25x–2.0x)
+- Audio enhancement (6-stage mastering chain)
+- Creative FX (Reverb, Echo, Bass Boost, 8D Audio, Vaporwave)
+
+**Additional:**
+- SponsorBlock ad-skipper for YouTube (Premium)
 
 All settings sync automatically across devices for Premium users.
 
 ## **Download Status Guide**
 
-During downloads and conversions, Medio provides detailed status information to keep you informed about what's happening. These status indicators help you understand the current operation and identify any issues.
-
-Below are the status messages you may encounter:
+Medio displays real-time status information during downloads and conversions.
 
 ### Progress Status Messages
 
@@ -392,7 +386,7 @@ Below are the status messages you may encounter:
 |-------------------------|-------------------------------------------------------------------------|
 | `Scanning`              | Validating and analyzing the provided URL                              |
 | `Loading Tools`         | Initializing download components and preparing resources               |
-| `Building Command`      | Assembling command arguments for yt-dlp and ffmpeg                     |
+| `Building Command`      | Assembling command arguments for yt-dlp and FFmpeg                     |
 | `Preparing Next`        | Processing the next video in a playlist/queue after successful download |
 | `Downloading: XX%`      | Live download progress with percentage and speed information           |
 | `Converting: XX%`       | Video conversion progress with speed and duration information          |
@@ -411,18 +405,18 @@ Below are the status messages you may encounter:
 
 ### Error Status Messages
 
-| Status                  | Description                                                             |
-|-------------------------|-------------------------------------------------------------------------|
-| `Empty Link`            | URL field is empty and requires a valid video link                     |
-| `Invalid Link`          | Link does not have a typical URL format or structure                   |
-| `Unsupported Link`      | URL is not supported by the download engine                            |
-| `Network Error`         | Connection lost during download or insufficient bandwidth              |
-| `Content Blocked`       | yt-dlp cannot download from this source due to platform-side restrictions |
-| `Copyright Error`       | Platform reports content restrictions preventing download              |
-| `File Exists`           | Content already exists in the directory and will be skipped            |
-| `Playlist Error`        | Playlist information could not be gathered from the provided link      |
-| `Tools Missing`         | Required tools (yt-dlp or ffmpeg) could not be found                   |
-| `Premium Required`      | Feature requires Premium license activation                            |
+| Status                  | Description                                                             | Solution                                          |
+|-------------------------|-------------------------------------------------------------------------|---------------------------------------------------|
+| `Empty Link`            | URL field is empty                                                     | Enter a valid video URL                           |
+| `Invalid Link`          | URL does not have a recognized format                                  | Check the URL and try again                       |
+| `Unsupported Link`      | URL is not supported by yt-dlp                                         | Try a different source or check yt-dlp support    |
+| `Network Error`         | Connection lost or insufficient bandwidth                              | Check internet connection and retry               |
+| `Content Blocked`       | Platform-side restrictions prevent download                            | Content may be geo-locked or age-restricted       |
+| `Copyright Error`       | Platform reports content restrictions                                  | Content is not available for download              |
+| `File Exists`           | File already exists in the download directory                          | File is skipped automatically                     |
+| `Playlist Error`        | Playlist information could not be gathered                             | Verify the playlist URL is accessible              |
+| `Tools Missing`         | yt-dlp or FFmpeg not found                                             | Restart Medio to trigger auto-install              |
+| `Premium Required`      | Feature requires Premium license                                       | Activate a Premium license key                    |
 
 If you encounter an `Unknown Error`, this indicates an unexpected issue that hasn't been accounted for. If this error persists, please report it in the [GitHub issue section](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) with details about what you were trying to download and your settings.
 
@@ -483,58 +477,54 @@ If you're unsure whether downloading specific content is legal in your jurisdict
 
 ## **Frequently Asked Questions**
 
-**Q: Why should I pay for Medio when yt-dlp and FFmpeg are free?**
+**Q: Why pay for Medio when yt-dlp and FFmpeg are free?**
 
-A: You're absolutely right that the underlying tools are free and open-source. Medio provides value through its intuitive interface, smart defaults, batch processing capabilities, automatic cloud sync, and error handling that would require significant technical knowledge to replicate manually. Think of it as paying for convenience, reliability, and time savings rather than the core functionality.
+A: Medio provides a GUI, cloud sync, queue management, and audio processing on top of yt-dlp/FFmpeg. The Premium tier funds cloud infrastructure and unlocks 1000+ platforms, the audio processing suite, and advanced codec options. The underlying tools remain free and open-source.
 
-**Q: What data does Medio collect about me?**
+**Q: What data does Medio collect?**
 
-A: Medio stores settings, statistics (download counts, total MB, XP/level), and license status in the cloud. If history tracking is enabled (the default), download URLs and titles are also stored. **No personal identifying information** like names, emails, or addresses is collected.
+A: Settings, statistics (download counts, MB, XP/level), and license status. If history tracking is enabled (default), download URLs and titles are also stored. **No personal identifying information** is collected.
 
-**Q: Why does Medio use cloud storage instead of storing everything locally?**
+**Q: Why cloud storage instead of local?**
 
-A: Since Medio requires internet connectivity for downloads anyway, cloud storage provides valuable benefits at no additional cost: automatic settings backup, persistent progress tracking even after Windows reinstalls, and cross-device synchronization for Premium users. For Basic users who prefer complete privacy, you can disable history tracking - only minimal statistics (download counts, XP) will be stored for the gamification system.
+A: Internet connectivity is required for downloads anyway. Cloud storage provides automatic settings backup, persistent progress across reinstalls, and cross-device sync (Premium). You can disable history tracking to minimize stored data.
 
-**Q: Can I use Medio completely offline or without cloud storage?**
+**Q: Can I use Medio offline?**
 
-A: No. Medio's architecture requires cloud connectivity for profile management and settings sync. However, you can disable download history tracking to minimize data collection - only statistics will be stored.
+A: No. Cloud connectivity is required for profile management. You can disable history tracking to minimize data collection.
 
 **Q: Is it legal to download videos from YouTube?**
 
-A: YouTube's Terms of Service may restrict downloading content unless explicitly permitted by the platform. Medio is a technical tool - the legal responsibility for what you download rests with you. Only download content you have the right to access.
+A: YouTube's Terms of Service may restrict downloading. Medio is a technical tool — legal responsibility rests with you.
 
 **Q: What happens if I disable history tracking after using it?**
 
-A: New downloads will no longer create history entries. Your existing cloud-stored history remains accessible in the app until you delete individual entries or your account is removed due to inactivity (180 days for Basic accounts).
+A: New downloads will no longer create history entries. Your existing cloud-stored history remains accessible in the app until you delete individual entries or your account is removed due to inactivity (365 days for Basic accounts).
 
-**Q: Can I transfer my license to another person?**
+**Q: Can I transfer my license?**
 
-A: No. License keys are non-transferable and tied to the original purchaser. Each license supports activation on up to 2 devices simultaneously for personal use. The system monitors activation patterns, and keys that show suspicious sharing behavior (such as activations from multiple countries within short timeframes) may be flagged for review or deactivated. If you need licenses for multiple users, separate purchases are required.
-
-**Q: Why are there speed limits on Basic licenses?**
-
-A: The speed limitations help manage server infrastructure and bandwidth costs while still providing full functionality for YouTube downloads. Premium licenses remove these restrictions for users who need faster downloads or multi-platform support.
+A: No. License keys are non-transferable and support up to 2 simultaneous device activations. Keys showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
 
 **Q: How do I completely delete all my data?**
 
 A: Delete individual history entries via right-click in the History tab. For complete account deletion:
 - Navigate to Settings → scroll to "Delete Account" button → confirm twice
-- **Basic accounts:** Alternatively, wait 180 days of inactivity for automatic deletion
+- **Basic accounts:** Alternatively, wait 365 days of inactivity for automatic deletion
 - **Premium accounts:** Can also use the Delete Account button or contact support via GitHub issue tracker
 
 Your license key remains valid after account deletion and can be used to create a fresh profile on any device.
 
 **Q: What happens to my data if my account is deleted?**
 
-A: Downloaded files on your local device are never affected by account deletion. Only cloud-stored settings and history are removed. Your actual video/audio files remain on your computer.
+A: Only cloud data (settings, history) is removed. Downloaded files on your device are never affected. License keys remain valid and can be reactivated on a new install.
 
-**Q: What happens if I reinstall Windows or get a new computer as a Basic user?**
+**Q: What if I reinstall Windows or switch computers (Basic)?**
 
-A: Basic users lose access to their cloud profile when switching devices or reinstalling Windows. Your cloud profile will be automatically deleted after 180 days of inactivity. To maintain persistent access across devices, upgrade to Premium - your license key becomes your "passport" to retrieve your profile from any device.
+A: Basic users lose access to their cloud profile on device change. The profile is auto-deleted after 365 days of inactivity. Premium license keys allow retrieving your profile from any device.
 
-**Q: Can I use the same license key on multiple devices?**
+**Q: Can I use my license key on multiple devices?**
 
-A: Yes! Premium license keys enable profile synchronization across all your devices. Enter the same key on a new device to retrieve your settings, statistics, and history. Basic licenses don't support cross-device sync.
+A: Yes. Enter the same key on a new device to sync your settings, statistics, and history. Basic licenses don't support cross-device sync.
 
 ## **Screenshots**
 
