@@ -525,7 +525,7 @@ A: Basic users lose access to their cloud profile on device change. The profile 
 
 **Q: Can I use my license key on multiple devices?**
 
-A: Yes. Enter the same key on a new device to sync your settings, statistics, and history. Basic licenses don't support cross-device sync.
+A: Yes. Enter the same key on a new device to sync your settings, statistics, and history. A maximum of 2 devices can be registered simultaneously — adding a third device automatically removes the oldest one. Basic licenses don't support cross-device sync.
 
 ## **Screenshots**
 
