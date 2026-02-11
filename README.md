@@ -15,10 +15,11 @@
 
 - **Video Downloads:** Download videos in MP4, MKV, AVI, WEBM, WMV, MOV, FLV at resolutions from 144p to 4320p
 - **Audio Extraction:** Extract audio as MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA at bitrates from 32k to 320k
-- **Playlist Processing:** Batch-download YouTube playlists and mixes
+- **Playlist Processing:** Batch-download playlists and mixes from supported platforms
 - **Queue System:** Sequential automated downloads with configurable concurrency
 - **Hardware Acceleration:** GPU encoding via NVIDIA NVENC, AMD AMF, or Intel QuickSync
-- **Universal Platform Support (Premium):** Access 1000+ platforms beyond YouTube
+- **10 Popular Platforms (Basic):** YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble
+- **1000+ Platforms (Premium):** All yt-dlp supported platforms
 - **Audio Processing (Premium):** Pitch/speed adjustment, reverb, echo, bass boost, 8D audio, vaporwave
 - **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
 - **Taskbar Integration:** Real-time progress in the Windows taskbar
@@ -128,16 +129,16 @@ If you have questions or issues related to these libraries, please [open an issu
 
 Medio offers two license tiers:
 
-- **Basic (Free):** YouTube support with 1440p max resolution, unlimited download speed
-- **Premium (€7.99 one-time):** 1000+ platforms, 4K/8K, audio processing, cross-device sync
+- **Basic (Free):** 10 popular platforms (YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble) with 1440p max resolution, unlimited download speed
+- **Premium (€7.99 one-time):** All 1000+ platforms, 4K/8K, audio processing, cross-device sync
 
 License keys are delivered via email within 5-10 minutes after purchase.
 
 | Feature | Basic | Premium |
 |---------|:-----:|:-------:|
 | **SUPPORTED PLATFORMS** | | |
-| YouTube (videos, audio, playlists, mixes) | ✔ | ✔ |
-| 1000+ additional platforms (Twitch, Vimeo, SoundCloud, etc.) | – | ✔ |
+| YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble | ✔ | ✔ |
+| 1000+ additional platforms | – | ✔ |
 | **VIDEO & AUDIO QUALITY** | | |
 | Video quality up to 1440p (QHD) | ✔ | ✔ |
 | Video quality up to 4K and 8K (4320p) | – | ✔ |
@@ -165,7 +166,7 @@ License keys are delivered via email within 5-10 minutes after purchase.
 | **CLOUD & PROFILE SYNC** | | |
 | Cloud-synced settings | Current device only | All devices |
 | Cross-device profile synchronization | – | ✔ |
-| Download history | 20 entries (2 pages) | 100 entries (10 pages) |
+| Download history | 60 entries (2 pages) | 300 entries (10 pages) |
 | Account persistence | Auto-deletion after 365 days inactivity | Permanent |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
