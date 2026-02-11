@@ -138,6 +138,7 @@ License keys are delivered via email within 5-10 minutes after purchase.
 |---------|:-----:|:-------:|
 | **SUPPORTED PLATFORMS** | | |
 | YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble | ✔ | ✔ |
+| Playlist Support | ✔ | ✔ |
 | 1000+ additional platforms | – | ✔ |
 | **VIDEO & AUDIO QUALITY** | | |
 | Video quality up to 1440p (QHD) | ✔ | ✔ |
