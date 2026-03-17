@@ -171,7 +171,7 @@ License keys are delivered via email within 5-10 minutes after purchase.
 | Account persistence | Auto-deletion after 365 days inactivity | Permanent |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
-When your history reaches its limit, the **oldest entries are automatically removed** to make room for new downloads. Your most recent downloads are always preserved.
+Arctisoft-Studio uses a unified license system — a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
@@ -527,6 +527,10 @@ A: Basic users lose access to their cloud profile on device change. The profile 
 **Q: Can I use my license key on multiple devices?**
 
 A: Yes. Enter the same key on a new device to sync your settings, statistics, and history. A maximum of 2 devices can be registered simultaneously — adding a third device automatically removes the oldest one. Basic licenses don't support cross-device sync.
+
+**Q: Does my Premium key work across all Arctisoft-Studio applications?**
+
+A: Yes. Arctisoft-Studio uses a unified license system. A single Premium key activates Premium features in all Arctisoft-Studio applications, including Medio and [WaveShaper](https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio). On a new installation, enter your key in any one application to restore Premium access across the entire suite.
 
 ## **Screenshots**
 
