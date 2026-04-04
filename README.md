@@ -15,11 +15,11 @@
 
 - **Video Downloads:** Download videos in MP4, MKV, AVI, WEBM, WMV, MOV, FLV at resolutions from 144p to 4320p
 - **Audio Extraction:** Extract audio as MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA at bitrates from 32k to 320k
-- **Playlist Processing:** Batch-download playlists and mixes from supported platforms
+- **1000+ Supported Platforms:** Download from all yt-dlp supported platforms
+- **Playlist Processing (Premium):** Batch-download playlists and mixes from supported platforms
 - **Queue System:** Sequential automated downloads with configurable concurrency
 - **Hardware Acceleration:** GPU encoding via NVIDIA NVENC, AMD AMF, or Intel QuickSync
-- **10 Popular Platforms (Basic):** YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble
-- **1000+ Platforms (Premium):** All yt-dlp supported platforms
+- **Guest Mode:** Use Medio without signing in with local storage for settings, history, and stats
 - **Audio Processing (Premium):** Pitch/speed adjustment, reverb, echo, bass boost, 8D audio, vaporwave
 - **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
 - **Taskbar Integration:** Real-time progress in the Windows taskbar
@@ -59,7 +59,7 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
    - [What Data is Stored](#what-data-is-stored)
    - [Download History Privacy Control](#download-history-privacy-control)
    - [Data Retention and Deletion](#data-retention-and-deletion)
-5. [License Key Activation and Profile Synchronization](#license-key-activation-and-profile-synchronization)
+5. [Authentication and Account Setup](#authentication-and-account-setup)
 6. [Getting Started Guide](#getting-started-guide)
    - [Step 1: Configure Your Settings](#step-1-configure-your-settings)
    - [Step 2: Download Your Content](#step-2-download-your-content)
@@ -129,17 +129,16 @@ If you have questions or issues related to these libraries, please [open an issu
 
 Medio offers two license tiers:
 
-- **Basic (Free):** 10 popular platforms (YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble) with 1440p max resolution, unlimited download speed
-- **Premium (€7.99 one-time):** All 1000+ platforms, 4K/8K, audio processing, cross-device sync
+- **Basic (Free):** All 1000+ supported platforms, single downloads only (no playlists), 1440p max resolution, unlimited download speed
+- **Premium (€7.99 one-time):** Everything in Basic plus playlist downloads, 4K/8K, audio processing, cross-device sync
 
-License keys are delivered via email within 5-10 minutes after purchase.
+Premium is activated through Arctisoft Studio Hub. A single Premium key activates Premium features across all Arctisoft applications.
 
 | Feature | Basic | Premium |
 |---------|:-----:|:-------:|
 | **SUPPORTED PLATFORMS** | | |
-| YouTube, Instagram, TikTok, Twitter/X, Facebook, Reddit, Twitch, Vimeo, SoundCloud, Rumble | ✔ | ✔ |
-| Playlist Support | ✔ | ✔ |
-| 1000+ additional platforms | – | ✔ |
+| All 1000+ yt-dlp supported platforms | ✔ | ✔ |
+| Playlist downloads | – | ✔ |
 | **VIDEO & AUDIO QUALITY** | | |
 | Video quality up to 1440p (QHD) | ✔ | ✔ |
 | Video quality up to 4K and 8K (4320p) | – | ✔ |
@@ -169,6 +168,7 @@ License keys are delivered via email within 5-10 minutes after purchase.
 | Cross-device profile synchronization | – | ✔ |
 | Download history | 60 entries (2 pages) | 300 entries (10 pages) |
 | Account persistence | Auto-deletion after 365 days inactivity | Permanent |
+| Device limit | Up to 3 simultaneous devices | Up to 3 simultaneous devices |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
 Arctisoft-Studio uses a unified license system — a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
@@ -179,13 +179,12 @@ Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact an
 
 ### Cloud-Based Architecture
 
-Medio uses a cloud-first architecture designed for data persistence and seamless synchronization across devices (Premium only). When you first launch the application, a cloud profile is automatically created behind the scenes - no registration, email, or personal information required.
+Medio uses a hybrid architecture that supports both cloud sync and local-only operation. When signed in through Arctisoft Hub, data syncs to the cloud. In guest mode, all data is stored locally on your device.
 
 **How It Works:**
-- **Automatic Profile Creation:** On first launch, a profile is generated and linked to your device
-- **Instant Access:** Each time you launch the application, it automatically connects to your cloud profile and loads your settings
-- **Device-Specific (Basic):** Basic license users have their cloud profile tied to their current device only
-- **Multi-Device Sync (Premium):** License key holders can access their profile from any device by entering their key
+- **Guest Mode:** Launch Medio without signing in. Settings, history, and stats are stored locally on your device.
+- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud and is tied to your current device.
+- **Signed In (Premium):** Sign in and access your profile from any device. Settings, history, and stats sync across all your devices.
 
 **Why Cloud Storage?**
 
@@ -213,7 +212,7 @@ Medio stores the following data in your cloud profile:
 
 **What is NOT Stored:**
 - Personal identifying information (name, email, address, phone number)
-- Payment details (handled by Stripe, not stored by Medio)
+- Payment details (handled externally, not stored by Medio)
 - Downloaded file content (only metadata is tracked)
 - Browsing activity outside of Medio
 - Device location beyond country-level (used for license management only)
@@ -251,36 +250,37 @@ Settings → Advanced → "Track and Save Downloads in History" → Set to **Dis
 
 **What Happens When Deleted:**
 - All cloud data is permanently removed
-- License keys are not refunded but can be reactivated on a new installation
+- Licenses are not refunded but you can sign in again to create a fresh profile
 - Downloaded files on your local device are NOT affected
 
-## License Key Activation and Profile Synchronization
+## Authentication and Account Setup
 
-License keys serve two critical purposes: unlocking Premium features and enabling cross-device profile access.
+Medio supports two modes of operation: **Guest Mode** for immediate local use and **Hub Sign-In** for cloud sync and Premium features.
 
-**How Profile Synchronization Works:**
+### Guest Mode
 
-1. **First Device (License Activation):**
-   - Enter your license key in the Licenses tab
-   - The key permanently links to your current cloud profile
-   - All your settings, statistics, history, and progress are now associated with this key
+Launch Medio without signing in to use it immediately. In guest mode:
+- All settings, history, and statistics are stored locally on your device
+- All 1000+ supported platforms are available for single downloads
+- No account or internet connection is required beyond the download itself
 
-2. **Additional Devices:**
-   - Install Medio on a new device (creates a temporary local profile)
-   - Go to Licenses tab → Enter the same license key
-   - Medio retrieves your existing profile from the cloud, overwriting the temporary local profile
-   - All your settings, history, and statistics are now available on the new device
+### Signing In Through Arctisoft Hub
 
-3. **Ongoing Synchronization:**
-   - Changes made on any device sync to the cloud automatically
-   - Switching between devices always loads your latest profile data
-   - Your progress, settings, and history remain consistent across all devices
+To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https://github.com/BerndHagen/Arctisoft-Studio-Hub):
+
+1. **Install Arctisoft Hub** and sign in or create an account
+2. **Open Medio** — it detects your Hub session automatically
+3. **Your cloud profile loads**, syncing settings, statistics, and history
+
+**On Additional Devices (Premium):**
+- Install Arctisoft Hub and sign in with the same account
+- Open Medio — your profile syncs automatically from the cloud
+- All settings, history, and statistics are available on the new device
 
 **Important Notes:**
-- **Basic License Limitation:** Basic users cannot sync across devices. If you reinstall Windows or switch computers, you lose access to your profile (automatic deletion after 365 days of inactivity)
-- **Premium Benefit:** Your license key is your "passport" to access your profile from any device, anytime
-- **Device Security:** License keys can be activated on up to 2 devices simultaneously for security purposes
-- **Profile Persistence:** Premium profiles are never automatically deleted - they're retained indefinitely
+- **Basic License:** Cloud profile is tied to a single device. Cross-device sync is not available.
+- **Premium License:** Access your profile from up to 3 devices simultaneously. Changes sync automatically across all devices.
+- **Profile Persistence:** Premium profiles are retained indefinitely. Basic profiles are auto-deleted after 365 days of inactivity.
 
 **What Gets Synchronized:**
 - All settings and preferences
@@ -349,7 +349,7 @@ Follow these steps to start downloading content:
 The Advanced Settings panel provides granular control over download and conversion parameters:
 
 **Download Configuration:**
-- Quality selection (144p–4320p video, 32k–320k audio) — Basic: up to 1440p, Premium: up to 4K/8K
+- Quality selection (144p–4320p video, 32k–320k audio)
 - Download speed limit (1 MB/s to unlimited)
 - Hardware acceleration (NVIDIA NVENC, AMD AMF, Intel QuickSync, CPU-only)
 - Network tuning: concurrent fragments (1–16), retries (5–Infinite), timeout (15–300s)
@@ -376,7 +376,7 @@ The Advanced Settings panel provides granular control over download and conversi
 **Additional:**
 - SponsorBlock ad-skipper for YouTube (Premium)
 
-All settings sync automatically across devices for Premium users.
+All settings sync automatically across devices for Premium users. Guest mode stores settings locally.
 
 ## **Download Status Guide**
 
@@ -418,7 +418,7 @@ Medio displays real-time status information during downloads and conversions.
 | `File Exists`           | File already exists in the download directory                          | File is skipped automatically                     |
 | `Playlist Error`        | Playlist information could not be gathered                             | Verify the playlist URL is accessible              |
 | `Tools Missing`         | yt-dlp or FFmpeg not found                                             | Restart Medio to trigger auto-install              |
-| `Premium Required`      | Feature requires Premium license                                       | Activate a Premium license key                    |
+| `Premium Required`      | Feature requires Premium license                                       | Upgrade to Premium through Arctisoft Hub           |
 
 If you encounter an `Unknown Error`, this indicates an unexpected issue that hasn't been accounted for. If this error persists, please report it in the [GitHub issue section](https://github.com/BerndHagen/Medio-Universal-Downloader/issues) with details about what you were trying to download and your settings.
 
@@ -481,7 +481,7 @@ If you're unsure whether downloading specific content is legal in your jurisdict
 
 **Q: Why pay for Medio when yt-dlp and FFmpeg are free?**
 
-A: Medio provides a GUI, cloud sync, queue management, and audio processing on top of yt-dlp/FFmpeg. The Premium tier funds cloud infrastructure and unlocks 1000+ platforms, the audio processing suite, and advanced codec options. The underlying tools remain free and open-source.
+A: Medio provides a GUI, cloud sync, queue management, and audio processing on top of yt-dlp/FFmpeg. The Premium tier funds cloud infrastructure and unlocks playlist processing, the audio processing suite, cross-device sync, and advanced codec options. The underlying tools remain free and open-source.
 
 **Q: What data does Medio collect?**
 
@@ -489,11 +489,11 @@ A: Settings, statistics (download counts, MB, XP/level), and license status. If 
 
 **Q: Why cloud storage instead of local?**
 
-A: Internet connectivity is required for downloads anyway. Cloud storage provides automatic settings backup, persistent progress across reinstalls, and cross-device sync (Premium). You can disable history tracking to minimize stored data.
+A: Cloud storage provides automatic settings backup, persistent progress across reinstalls, and cross-device sync (Premium). If you prefer local-only storage, use guest mode. You can disable history tracking to minimize stored data.
 
 **Q: Can I use Medio offline?**
 
-A: No. Cloud connectivity is required for profile management. You can disable history tracking to minimize data collection.
+A: Yes. Guest mode stores all data locally and does not require an account or cloud connectivity. You only need an internet connection for the downloads themselves.
 
 **Q: Is it legal to download videos from YouTube?**
 
@@ -505,7 +505,7 @@ A: New downloads will no longer create history entries. Your existing cloud-stor
 
 **Q: Can I transfer my license?**
 
-A: No. License keys are non-transferable and support up to 2 simultaneous device activations. Keys showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
+A: No. Licenses are non-transferable and support up to 3 simultaneous device activations. Accounts showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
 
 **Q: How do I completely delete all my data?**
 
@@ -514,23 +514,23 @@ A: Delete individual history entries via right-click in the History tab. For com
 - **Basic accounts:** Alternatively, wait 365 days of inactivity for automatic deletion
 - **Premium accounts:** Can also use the Delete Account button or contact support via GitHub issue tracker
 
-Your license key remains valid after account deletion and can be used to create a fresh profile on any device.
+Your license remains valid after account deletion and you can create a fresh profile by signing in again through Arctisoft Hub.
 
 **Q: What happens to my data if my account is deleted?**
 
-A: Only cloud data (settings, history) is removed. Downloaded files on your device are never affected. License keys remain valid and can be reactivated on a new install.
+A: Only cloud data (settings, history) is removed. Downloaded files on your device are never affected. Your license remains valid and you can sign in again through Arctisoft Hub.
 
 **Q: What if I reinstall Windows or switch computers (Basic)?**
 
-A: Basic users lose access to their cloud profile on device change. The profile is auto-deleted after 365 days of inactivity. Premium license keys allow retrieving your profile from any device.
+A: Basic users lose access to their cloud profile on device change. The profile is auto-deleted after 365 days of inactivity. Alternatively, use guest mode to keep all data stored locally on your device. Premium users can retrieve their profile from any device by signing in through Arctisoft Hub.
 
-**Q: Can I use my license key on multiple devices?**
+**Q: Can I use my license on multiple devices?**
 
-A: Yes. Enter the same key on a new device to sync your settings, statistics, and history. A maximum of 2 devices can be registered simultaneously — adding a third device automatically removes the oldest one. Basic licenses don't support cross-device sync.
+A: Yes. Sign in through Arctisoft Hub on a new device to sync your settings, statistics, and history. A maximum of 3 devices can be registered simultaneously — adding a fourth device automatically removes the oldest one. Basic licenses don't support cross-device sync.
 
 **Q: Does my Premium key work across all Arctisoft-Studio applications?**
 
-A: Yes. Arctisoft-Studio uses a unified license system. A single Premium key activates Premium features in all Arctisoft-Studio applications, including Medio and [WaveShaper](https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio). On a new installation, enter your key in any one application to restore Premium access across the entire suite.
+A: Yes. Arctisoft-Studio uses a unified license system. A single Premium subscription activates Premium features in all Arctisoft-Studio applications, including Medio and [WaveShaper](https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio). Sign in through Arctisoft Hub on any device to restore Premium access across the entire suite.
 
 ## **Screenshots**
 
