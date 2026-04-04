@@ -167,7 +167,6 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Cloud-synced settings | Current device only | All devices |
 | Cross-device profile synchronization | – | ✔ |
 | Download history | 60 entries (2 pages) | 300 entries (10 pages) |
-| Account persistence | Auto-deletion after 365 days inactivity | Permanent |
 | Device limit | Up to 3 simultaneous devices | Up to 3 simultaneous devices |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
@@ -240,17 +239,13 @@ Settings → Advanced → "Track and Save Downloads in History" → Set to **Dis
 
 ### Data Retention and Deletion
 
-**Account Retention:**
-- **Basic License:** Inactive accounts (no activity for 365 days) are automatically deleted
-- **Premium License:** Accounts are retained indefinitely
-
 **Deleting Your Data:**
 - **Individual History Entries:** Right-click any entry in the History tab → Delete
-- **Complete Account Deletion:** Navigate to Settings → scroll to "Delete Account" button → confirm twice, or wait 365 days of inactivity for automatic deletion (Basic accounts only)
+- **Complete Account Deletion:** Navigate to Settings → scroll to "Delete Account" button → confirm twice
 
 **What Happens When Deleted:**
 - All cloud data is permanently removed
-- Licenses are not refunded but you can sign in again to create a fresh profile
+- You can sign in again to create a fresh profile
 - Downloaded files on your local device are NOT affected
 
 ## Authentication and Account Setup
@@ -280,7 +275,7 @@ To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https
 **Important Notes:**
 - **Basic License:** Cloud profile is tied to a single device. Cross-device sync is not available.
 - **Premium License:** Access your profile from up to 3 devices simultaneously. Changes sync automatically across all devices.
-- **Profile Persistence:** Premium profiles are retained indefinitely. Basic profiles are auto-deleted after 365 days of inactivity.
+- **Profile Persistence:** All profiles are retained until the user manually deletes their account.
 
 **What Gets Synchronized:**
 - All settings and preferences
@@ -501,7 +496,7 @@ A: YouTube's Terms of Service may restrict downloading. Medio is a technical too
 
 **Q: What happens if I disable history tracking after using it?**
 
-A: New downloads will no longer create history entries. Your existing cloud-stored history remains accessible in the app until you delete individual entries or your account is removed due to inactivity (365 days for Basic accounts).
+A: New downloads will no longer create history entries. Your existing cloud-stored history remains accessible in the app until you delete individual entries or your account.
 
 **Q: Can I transfer my license?**
 
@@ -511,8 +506,7 @@ A: No. Licenses are non-transferable and support up to 3 simultaneous device act
 
 A: Delete individual history entries via right-click in the History tab. For complete account deletion:
 - Navigate to Settings → scroll to "Delete Account" button → confirm twice
-- **Basic accounts:** Alternatively, wait 365 days of inactivity for automatic deletion
-- **Premium accounts:** Can also use the Delete Account button or contact support via GitHub issue tracker
+- You can also contact support via the GitHub issue tracker
 
 Your license remains valid after account deletion and you can create a fresh profile by signing in again through Arctisoft Hub.
 
@@ -522,7 +516,7 @@ A: Only cloud data (settings, history) is removed. Downloaded files on your devi
 
 **Q: What if I reinstall Windows or switch computers (Basic)?**
 
-A: Basic users lose access to their cloud profile on device change. The profile is auto-deleted after 365 days of inactivity. Alternatively, use guest mode to keep all data stored locally on your device. Premium users can retrieve their profile from any device by signing in through Arctisoft Hub.
+A: Basic users lose access to their cloud profile on device change. Use guest mode to keep all data stored locally on your device. Premium users can retrieve their profile from any device by signing in through Arctisoft Hub.
 
 **Q: Can I use my license on multiple devices?**
 
