@@ -167,7 +167,7 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Cloud-synced settings | Current device only | All devices |
 | Cross-device profile synchronization | – | ✔ |
 | Download history | 60 entries (2 pages) | 300 entries (10 pages) |
-| Device limit | Up to 3 simultaneous devices | Up to 3 simultaneous devices |
+| Device limit | Unlimited | Unlimited |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
 Arctisoft-Studio uses a unified license system — a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
@@ -182,8 +182,8 @@ Medio uses a hybrid architecture that supports both cloud sync and local-only op
 
 **How It Works:**
 - **Guest Mode:** Launch Medio without signing in. Settings, history, and stats are stored locally on your device.
-- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud and is tied to your current device.
-- **Signed In (Premium):** Sign in and access your profile from any device. Settings, history, and stats sync across all your devices.
+- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud.
+- **Signed In (Premium):** Everything in Basic plus cross-device profile sync. Settings, history, and stats are accessible from all your devices.
 
 **Why Cloud Storage?**
 
@@ -210,11 +210,13 @@ Medio stores the following data in your cloud profile:
 - **Download History:** Complete list of URLs, titles, and dates - only stored when "Track and Save Downloads in History" is **enabled**
 
 **What is NOT Stored:**
-- Personal identifying information (name, email, address, phone number)
+- Personal identifying information (name, address, phone number)
 - Payment details (handled externally, not stored by Medio)
 - Downloaded file content (only metadata is tracked)
 - Browsing activity outside of Medio
 - Device location beyond country-level (used for license management only)
+
+**Note:** Your email address is used as your account login identifier and is stored for authentication purposes.
 
 ### Download History Privacy Control
 
@@ -274,7 +276,7 @@ To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https
 
 **Important Notes:**
 - **Basic License:** Cloud profile is tied to a single device. Cross-device sync is not available.
-- **Premium License:** Access your profile from up to 3 devices simultaneously. Changes sync automatically across all devices.
+- **Premium License:** Access your profile from any device. Changes sync automatically across all devices.
 - **Profile Persistence:** All profiles are retained until the user manually deletes their account.
 
 **What Gets Synchronized:**
@@ -500,7 +502,7 @@ A: New downloads will no longer create history entries. Your existing cloud-stor
 
 **Q: Can I transfer my license?**
 
-A: No. Licenses are non-transferable and support up to 3 simultaneous device activations. Accounts showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
+A: No. Licenses are non-transferable and tied to your Arctisoft account. Accounts showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
 
 **Q: How do I completely delete all my data?**
 
@@ -520,7 +522,7 @@ A: Basic users lose access to their cloud profile on device change. Use guest mo
 
 **Q: Can I use my license on multiple devices?**
 
-A: Yes. Sign in through Arctisoft Hub on a new device to sync your settings, statistics, and history. A maximum of 3 devices can be registered simultaneously — adding a fourth device automatically removes the oldest one. Basic licenses don't support cross-device sync.
+A: Yes. Sign in through Arctisoft Hub on a new device to sync your settings, statistics, and history.
 
 **Q: Does my Premium key work across all Arctisoft-Studio applications?**
 
