@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img_medio.png" alt="Medio Logo" width="128" />
+  <img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/medio-logo.png" alt="Medio Logo" width="128" />
 </p>
 <h1 align="center">Medio - Universal Downloader</h1>
 <p align="center">
@@ -538,23 +538,23 @@ If you'd like a preview of Medio before downloading, the screenshots below show 
     <th>Medio - Downloader</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_dashboard.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_dashboard.png" alt="Medio Dashboard" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_downloader.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_downloader.png" alt="Medio Downloader" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-dashboard.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-dashboard.png" alt="Medio Dashboard" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-downloader.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-downloader.png" alt="Medio Downloader" width="450"></a></td>
   </tr>
   <tr>
     <th>Medio - History</th>
     <th>Medio - Licenses</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_history.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_history.png" alt="Medio History" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_licenses.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_licenses.png" alt="Medio Licenses" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-history.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-history.png" alt="Medio History" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-licenses.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-licenses.png" alt="Medio Licenses" width="450"></a></td>
   </tr>
   <tr>
-    <th>Medio - Activation</th>
+    <th>Medio - Advanced Settings</th>
     <th>Medio - Settings</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_activation.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_activation.png" alt="Medio Activation" width="450"></a></td>
-    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/img-medio_settings.png" alt="Medio Settings" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-advanced.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-advanced.png" alt="Medio Advanced Settings" width="450"></a></td>
+    <td><a href="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-settings.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/BerndHagen/Medio-Universal-Downloader/raw/main/images/screenshot-settings.png" alt="Medio Settings" width="450"></a></td>
   </tr>
 </table>
