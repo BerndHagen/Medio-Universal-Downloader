@@ -23,7 +23,7 @@
 - **Audio Processing (Premium):** Pitch/speed adjustment, reverb, echo, bass boost, 8D audio, vaporwave
 - **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
 - **Taskbar Integration:** Real-time progress in the Windows taskbar
-- **Cloud Sync:** Settings, statistics, and history sync across devices (cross-device sync is Premium)
+- **Cloud Sync:** Settings, statistics, and history sync across devices when signed in through Arctisoft Hub
 - **Privacy Control:** Optionally disable download history tracking
 
 ### **Supported Formats**
@@ -130,7 +130,7 @@ If you have questions or issues related to these libraries, please [open an issu
 Medio offers two license tiers:
 
 - **Basic (Free):** All 1000+ supported platforms, single downloads only (no playlists), 1440p max resolution, unlimited download speed
-- **Premium (€7.99 one-time):** Everything in Basic plus playlist downloads, 4K/8K, audio processing, cross-device sync
+- **Premium (€7.99 one-time):** Everything in Basic plus playlist downloads, 4K/8K, audio processing, advanced codecs, and extended history
 
 Premium is activated through Arctisoft Studio Hub. A single Premium key activates Premium features across all Arctisoft applications.
 
@@ -164,8 +164,8 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Subtitle extraction | ✔ | ✔ |
 | Geo-bypass for region-locked content | ✔ | ✔ |
 | **CLOUD & PROFILE SYNC** | | |
-| Cloud-synced settings | Current device only | All devices |
-| Cross-device profile synchronization | – | ✔ |
+| Cloud-synced settings | ✔ | ✔ |
+| Cross-device profile synchronization | ✔ | ✔ |
 | Download history | 60 entries (2 pages) | 300 entries (10 pages) |
 | Device limit | Unlimited | Unlimited |
 | **PRICE** | **Free** | **€7.99** (one-time) |
@@ -182,15 +182,15 @@ Medio uses a hybrid architecture that supports both cloud sync and local-only op
 
 **How It Works:**
 - **Guest Mode:** Launch Medio without signing in. Settings, history, and stats are stored locally on your device.
-- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud.
-- **Signed In (Premium):** Everything in Basic plus cross-device profile sync. Settings, history, and stats are accessible from all your devices.
+- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud and is accessible from any device.
+- **Signed In (Premium):** Everything in Basic plus playlist downloads, advanced encoding, audio processing, and extended history.
 
 **Why Cloud Storage?**
 
 Since internet connectivity is required for downloads anyway, cloud storage adds valuable benefits without additional overhead:
 - **Data Persistence:** Your settings, statistics, and progress are safely stored even if you reinstall Windows
 - **Zero Configuration:** No manual backups or exports needed - everything is automatic
-- **Cross-Device Sync:** Premium users can seamlessly switch between devices without reconfiguring
+- **Cross-Device Sync:** Signed-in users can seamlessly switch between devices without reconfiguring
 - **Gamification:** Track your level, experience points, and ranks persistently
 
 ### What Data is Stored
@@ -269,14 +269,14 @@ To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https
 2. **Open Medio** — it detects your Hub session automatically
 3. **Your cloud profile loads**, syncing settings, statistics, and history
 
-**On Additional Devices (Premium):**
+**On Additional Devices:**
 - Install Arctisoft Hub and sign in with the same account
 - Open Medio — your profile syncs automatically from the cloud
 - All settings, history, and statistics are available on the new device
 
 **Important Notes:**
-- **Basic License:** Cloud profile is tied to a single device. Cross-device sync is not available.
-- **Premium License:** Access your profile from any device. Changes sync automatically across all devices.
+- **Basic License:** Cloud profile syncs across all your devices. Settings, history, and statistics are always accessible when signed in.
+- **Premium License:** Everything in Basic plus playlist downloads, advanced encoding, audio processing, and extended history.
 - **Profile Persistence:** All profiles are retained until the user manually deletes their account.
 
 **What Gets Synchronized:**
@@ -350,9 +350,9 @@ The Advanced Settings panel provides granular control over download and conversi
 - Download speed limit (1 MB/s to unlimited)
 - Hardware acceleration (NVIDIA NVENC, AMD AMF, Intel QuickSync, CPU-only)
 - Network tuning: concurrent fragments (1–16), retries (5–Infinite), timeout (15–300s)
-- Buffer size (1024–9216 KB)
+- Buffer size (1024–32768 KB)
 - Geo-bypass for region-locked content
-- Subtitle extraction (Disabled, English, All Languages)
+- Subtitle extraction (Disabled, English, Spanish, French, German, Portuguese, Chinese, All Languages)
 - Download history tracking toggle
 
 **Encoding Options:**
@@ -367,13 +367,13 @@ The Advanced Settings panel provides granular control over download and conversi
 **Audio Processing (Premium):**
 - Pitch adjustment (0.25x–2.0x)
 - Speed adjustment (0.25x–2.0x)
-- Audio enhancement (6-stage mastering chain)
+- Audio enhancement (10-stage remastering chain)
 - Creative FX (Reverb, Echo, Bass Boost, 8D Audio, Vaporwave)
 
 **Additional:**
 - SponsorBlock ad-skipper for YouTube (Premium)
 
-All settings sync automatically across devices for Premium users. Guest mode stores settings locally.
+All settings sync automatically across devices for signed-in users. Guest mode stores settings locally.
 
 ## **Download Status Guide**
 
@@ -478,7 +478,7 @@ If you're unsure whether downloading specific content is legal in your jurisdict
 
 **Q: Why pay for Medio when yt-dlp and FFmpeg are free?**
 
-A: Medio provides a GUI, cloud sync, queue management, and audio processing on top of yt-dlp/FFmpeg. The Premium tier funds cloud infrastructure and unlocks playlist processing, the audio processing suite, cross-device sync, and advanced codec options. The underlying tools remain free and open-source.
+A: Medio provides a GUI, cloud sync, queue management, and audio processing on top of yt-dlp/FFmpeg. The Premium tier funds cloud infrastructure and unlocks playlist processing, the audio processing suite, advanced codec options, and extended history. Cloud sync is available to all signed-in users. The underlying tools remain free and open-source.
 
 **Q: What data does Medio collect?**
 
@@ -486,7 +486,7 @@ A: Settings, statistics (download counts, MB, XP/level), and license status. If 
 
 **Q: Why cloud storage instead of local?**
 
-A: Cloud storage provides automatic settings backup, persistent progress across reinstalls, and cross-device sync (Premium). If you prefer local-only storage, use guest mode. You can disable history tracking to minimize stored data.
+A: Cloud storage provides automatic settings backup, persistent progress across reinstalls, and cross-device sync for all signed-in users. If you prefer local-only storage, use guest mode. You can disable history tracking to minimize stored data.
 
 **Q: Can I use Medio offline?**
 
@@ -502,7 +502,7 @@ A: New downloads will no longer create history entries. Your existing cloud-stor
 
 **Q: Can I transfer my license?**
 
-A: No. Licenses are non-transferable and tied to your Arctisoft account. Accounts showing suspicious sharing patterns (e.g., activations from multiple countries) may be flagged or deactivated.
+A: No. Licenses are non-transferable and tied to your Arctisoft account.
 
 **Q: How do I completely delete all my data?**
 
@@ -516,9 +516,9 @@ Your license remains valid after account deletion and you can create a fresh pro
 
 A: Only cloud data (settings, history) is removed. Downloaded files on your device are never affected. Your license remains valid and you can sign in again through Arctisoft Hub.
 
-**Q: What if I reinstall Windows or switch computers (Basic)?**
+**Q: What if I reinstall Windows or switch computers?**
 
-A: Basic users lose access to their cloud profile on device change. Use guest mode to keep all data stored locally on your device. Premium users can retrieve their profile from any device by signing in through Arctisoft Hub.
+A: If you are signed in through Arctisoft Hub, your cloud profile (settings, statistics, history) is automatically restored when you sign in on a new device or after a reinstall. This applies to both Basic and Premium users. Guest mode stores data locally only, so it does not survive a reinstall or device change.
 
 **Q: Can I use my license on multiple devices?**
 
