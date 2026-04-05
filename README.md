@@ -170,7 +170,7 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Device limit | Unlimited | Unlimited |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
-Arctisoft-Studio uses a unified license system — a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
+Arctisoft-Studio uses a unified license system - a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
@@ -266,12 +266,12 @@ Launch Medio without signing in to use it immediately. In guest mode:
 To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https://github.com/BerndHagen/Arctisoft-Studio-Hub):
 
 1. **Install Arctisoft Hub** and sign in or create an account
-2. **Open Medio** — it detects your Hub session automatically
+2. **Open Medio** - it detects your Hub session automatically
 3. **Your cloud profile loads**, syncing settings, statistics, and history
 
 **On Additional Devices:**
 - Install Arctisoft Hub and sign in with the same account
-- Open Medio — your profile syncs automatically from the cloud
+- Open Medio - your profile syncs automatically from the cloud
 - All settings, history, and statistics are available on the new device
 
 **Important Notes:**
@@ -494,7 +494,7 @@ A: Yes. Guest mode stores all data locally and does not require an account or cl
 
 **Q: Is it legal to download videos from YouTube?**
 
-A: YouTube's Terms of Service may restrict downloading. Medio is a technical tool — legal responsibility rests with you.
+A: YouTube's Terms of Service may restrict downloading. Medio is a technical tool - legal responsibility rests with you.
 
 **Q: What happens if I disable history tracking after using it?**
 
