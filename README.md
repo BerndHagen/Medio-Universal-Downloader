@@ -80,7 +80,7 @@ Medio uses ffmpeg to recode audio, ensuring the final file matches your selected
 - **Processor:** Intel Core i3-8100 or AMD Ryzen 3 2200G with 4 cores at 3.0 GHz
 - **RAM:** 8 GB
 - **Graphics:** DirectX 11 compatible graphics card with integrated graphics acceptable
-- **Storage:** 500 MB of free disk space plus additional space for downloads
+- **Storage:** 800 MB of free disk space plus additional space for downloads
 - **Software:** .NET 10.0 Runtime ([Download](https://dotnet.microsoft.com/download/dotnet/10.0/runtime)) - **Not required as application is self-contained**
 - **Internet:** Stable broadband connection (5 Mbps or faster)
 
