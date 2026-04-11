@@ -526,7 +526,7 @@ A: Yes. Sign in through Arctisoft Hub on a new device to sync your settings, sta
 
 **Q: Does my Premium key work across all Arctisoft-Studio applications?**
 
-A: Yes. Arctisoft-Studio uses a unified license system. A single Premium subscription activates Premium features in all Arctisoft-Studio applications, including Medio and [WaveShaper](https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio). Sign in through Arctisoft Hub on any device to restore Premium access across the entire suite.
+A: Each Arctisoft Studio application uses its own independent license key. Purchase a Premium license for Medio through the Hub to unlock all Premium features. Sign in through Arctisoft Hub on any device to restore your Premium access.
 
 ## **Screenshots**
 
