@@ -20,7 +20,7 @@
 - **Queue System:** Sequential automated downloads with configurable concurrency
 - **Hardware Acceleration:** GPU encoding via NVIDIA NVENC, AMD AMF, or Intel QuickSync
 - **Guest Mode:** Use Medio without signing in with local storage for settings, history, and stats
-- **Audio Processing (Premium):** Pitch/speed adjustment, reverb, echo, bass boost, 8D audio, vaporwave
+- **Audio Processing (Premium):** Pitch/speed adjustment, studio-quality enhancement, remastered audio processing, reverb, echo, bass boost, 8D audio, vaporwave
 - **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
 - **Taskbar Integration:** Real-time progress in the Windows taskbar
 - **Cloud Sync:** Settings, statistics, and history sync across devices when signed in through Arctisoft Hub
@@ -132,7 +132,7 @@ Medio offers two license tiers:
 - **Basic (Free):** All 1000+ supported platforms, single downloads only (no playlists), 1440p max resolution, unlimited download speed
 - **Premium (€7.99 one-time):** Everything in Basic plus playlist downloads, 4K/8K, audio processing, advanced codecs, and extended history
 
-Premium is activated through Arctisoft Studio Hub. A single Premium key activates Premium features across all Arctisoft applications.
+Premium is activated through Arctisoft Studio Hub. Each Arctisoft Studio application uses its own independent license key - purchase a Premium license for Medio to unlock all Premium features.
 
 | Feature | Basic | Premium |
 |---------|:-----:|:-------:|
@@ -158,6 +158,7 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Audio pitch adjustment (0.25x - 2.0x) | – | ✔ |
 | Audio speed adjustment (0.25x - 2.0x) | – | ✔ |
 | Audio enhancement (studio quality processing) | – | ✔ |
+| Remastered audio processing | – | ✔ |
 | Creative FX (Reverb, Echo, Bass Boost, 8D Audio, Vaporwave) | – | ✔ |
 | **ADVANCED FEATURES** | | |
 | SponsorBlock ad-skipper for YouTube | – | ✔ |
@@ -170,7 +171,7 @@ Premium is activated through Arctisoft Studio Hub. A single Premium key activate
 | Device limit | Unlimited | Unlimited |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
-Arctisoft-Studio uses a unified license system - a single Premium key activates Premium features across all Arctisoft-Studio applications, including future releases.
+Each Arctisoft Studio application uses its own independent license key. Purchase a Premium license for Medio through the Hub to unlock all Premium features.
 
 Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
@@ -367,7 +368,8 @@ The Advanced Settings panel provides granular control over download and conversi
 **Audio Processing (Premium):**
 - Pitch adjustment (0.25x–2.0x)
 - Speed adjustment (0.25x–2.0x)
-- Audio enhancement (10-stage remastering chain)
+- Audio enhancement (studio quality processing)
+- Remastered audio processing
 - Creative FX (Reverb, Echo, Bass Boost, 8D Audio, Vaporwave)
 
 **Additional:**
@@ -435,10 +437,10 @@ Medio supports hardware acceleration to optimize video processing performance. T
    - Uses graphics card for better performance
    - Significantly reduces CPU load
 
-3. **Hybrid Processing**
-   - Balances workload between CPU and GPU
-   - Provides maximum efficiency
-   - Automatically adjusts based on content type
+3. **Automatic Processing**
+   - Detects the best available GPU automatically
+   - Falls back to CPU when no supported GPU is found
+   - Recommended for most users
 
 Hardware acceleration provides several advantages for media processing:
 
