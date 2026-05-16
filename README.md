@@ -14,16 +14,18 @@
 ### **Key Features**
 
 - **Video Downloads:** Download videos in MP4, MKV, AVI, WEBM, WMV, MOV, FLV at resolutions from 144p to 4320p
-- **Audio Extraction:** Extract audio as MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA at bitrates from 32k to 320k
+- **Audio Extraction:** Extract audio as MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA with format-aware quality presets
 - **1000+ Supported Platforms:** Download from all yt-dlp supported platforms
 - **Playlist Processing (Premium):** Batch-download playlists and mixes from supported platforms
-- **Queue System:** Sequential automated downloads with configurable concurrency
+- **Queue System:** Sequential automated downloads with up to 5 queued items for Basic users and 50 for Premium users, with a built-in queue editor for reviewing and managing pending downloads
+- **Clip & Trim:** Download a specific time range in HH:MM:SS format with auto-fill from detected duration, inline validation, and a clear action
+- **Stream Loop:** Repeat audio or video output 2x, 3x, 5x, or 10x in a single download pass across all supported formats
 - **Hardware Acceleration:** GPU encoding via NVIDIA NVENC, AMD AMF, or Intel QuickSync
-- **Guest Mode:** Use Medio without signing in with local storage for settings, history, and stats
+- **Guest Mode:** Use Medio without signing in; local storage covers settings, history, stats, full level/rank/XP progression, and a custom profile image
 - **Audio Processing (Premium):** Pitch/speed adjustment, studio-quality enhancement, remastered audio processing, reverb, echo, bass boost, 8D audio, vaporwave
 - **SponsorBlock (Premium):** Skip or mark sponsored segments in YouTube videos
 - **Taskbar Integration:** Real-time progress in the Windows taskbar
-- **Cloud Sync:** Settings, statistics, and history sync across devices when signed in through Arctisoft Hub
+- **Cloud Sync:** Settings, statistics, and history sync across your authorized devices when signed in through Arctisoft Hub
 - **Privacy Control:** Optionally disable download history tracking
 
 ### **Supported Formats**
@@ -38,9 +40,9 @@ A wide range of video and audio formats are supported:
 Medio lets you choose from various video and audio quality options:
 
 - **Video Quality Options:** `4320p`, `2160p`, `1440p`, `1080p`, `720p`, `480p`, `360p`, `240p`, `144p`
-- **Audio Quality Options:** `320k`, `256k`, `160k`, `128k`, `96k`, `64k`, `48k`, `32k`
+- **Audio Quality Options:** Lossy formats use bitrate presets up to `320 kbps`; FLAC uses compression levels `0-8`; WAV uses `44.1 kHz`, `48 kHz`, and `96 kHz` presets
   
-Medio uses ffmpeg to recode audio, ensuring the final file matches your selected quality down to `32 kbps` if needed. When your selected quality isn't available on the source platform, Medio **automatically** selects the **highest available** quality for the unavailable option.
+Medio uses FFmpeg to encode audio according to the selected format's own quality model. When your selected quality isn't available on the source platform, Medio **automatically** selects the **highest available** quality for the unavailable option.
 
 **Note on URL Validation:** YouTube URLs are validated quickly, while other platforms require a dual-layer validation process combining standard verification with additional media detection, which may take a few extra seconds.
 
@@ -142,15 +144,18 @@ Premium is activated through Arctisoft Studio Hub. Each Arctisoft Studio applica
 | **VIDEO & AUDIO QUALITY** | | |
 | Video quality up to 1440p (QHD) | ✔ | ✔ |
 | Video quality up to 4K and 8K (4320p) | – | ✔ |
-| All audio bitrates (32kbps - 320kbps) | ✔ | ✔ |
+| All format-aware audio quality presets | ✔ | ✔ |
 | All video formats (MP4, MKV, AVI, WEBM, WMV, MOV, FLV) | ✔ | ✔ |
 | All audio formats (MP3, FLAC, OGG, OPUS, WAV, M4A, AAC, WMA) | ✔ | ✔ |
 | **DOWNLOAD PERFORMANCE** | | |
 | Download speed | Unlimited | Unlimited |
-| Simultaneous downloads in queue | Up to 3 | Up to 20 |
+| Queue item capacity | Up to 5 | Up to 50 |
 | Hardware-accelerated conversion (NVIDIA, AMD, Intel) | ✔ | ✔ |
 | **ENCODING OPTIONS** | | |
 | Automatic metadata embedding (title, artist, album art) | ✔ | ✔ |
+| External thumbnail saving (JPEG/WebP) | ✔ | ✔ |
+| Clip & Trim for single downloads | ✔ | ✔ |
+| Stream Loop (2x, 3x, 5x, 10x) | ✔ | ✔ |
 | Audio normalization (5 modes) | ✔ | ✔ |
 | Video codec selection (H.264 only / All codecs) | H.264 only | H.264, H.265, VP8, VP9, AV1, MPEG-4 |
 | Two-pass encoding for improved quality | – | ✔ |
@@ -168,7 +173,7 @@ Premium is activated through Arctisoft Studio Hub. Each Arctisoft Studio applica
 | Cloud-synced settings | ✔ | ✔ |
 | Cross-device profile synchronization | ✔ | ✔ |
 | Download history | 60 entries (2 pages) | 300 entries (10 pages) |
-| Device limit | Unlimited | Unlimited |
+| Active device limit | Up to 2 devices | Up to 2 devices |
 | **PRICE** | **Free** | **€7.99** (one-time) |
 
 Each Arctisoft Studio application uses its own independent license key. Purchase a Premium license for Medio through the Hub to unlock all Premium features.
@@ -183,7 +188,7 @@ Medio uses a hybrid architecture that supports both cloud sync and local-only op
 
 **How It Works:**
 - **Guest Mode:** Launch Medio without signing in. Settings, history, and stats are stored locally on your device.
-- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud and is accessible from any device.
+- **Signed In (Basic):** Sign in through Arctisoft Hub. Your data syncs to the cloud and is accessible from your authorized devices.
 - **Signed In (Premium):** Everything in Basic plus playlist downloads, advanced encoding, audio processing, and extended history.
 
 **Why Cloud Storage?**
@@ -191,8 +196,8 @@ Medio uses a hybrid architecture that supports both cloud sync and local-only op
 Since internet connectivity is required for downloads anyway, cloud storage adds valuable benefits without additional overhead:
 - **Data Persistence:** Your settings, statistics, and progress are safely stored even if you reinstall Windows
 - **Zero Configuration:** No manual backups or exports needed - everything is automatic
-- **Cross-Device Sync:** Signed-in users can seamlessly switch between devices without reconfiguring
-- **Gamification:** Track your level, experience points, and ranks persistently
+- **Cross-Device Sync:** Signed-in users can switch between authorized devices without reconfiguring
+- **Gamification:** Level, experience points, and ranks sync to the cloud so your progression is preserved across reinstalls and devices
 
 ### What Data is Stored
 
@@ -205,7 +210,7 @@ Medio stores the following data in your cloud profile:
 - **License Status:** Current license type (Basic or Premium)
 - **Avatar:** Profile picture if you've uploaded one
 - **General Settings:** Buffer size, video/audio format preference, video/audio quality preference
-- **Advanced Settings:** Hardware acceleration, download speed limit, download history tracking, audio normalization level, metadata embedding, video codec, video audio codec, two-pass encoding, deinterlace, audio pitch, audio speed, audio enhancement, creative FX, SponsorBlock, geo-bypass, subtitle mode, FFmpeg preset/CRF/threads, concurrent fragments, retries, timeout
+- **Advanced Settings:** Hardware acceleration, download speed limit, download history tracking, audio normalization level, metadata embedding, external thumbnail saving, video codec, video audio codec, two-pass encoding, deinterlace, audio pitch, audio speed, audio enhancement, creative FX, SponsorBlock, geo-bypass, browser cookies, subtitle mode, FFmpeg preset/CRF/threads, concurrent fragments, download retries, fragment retries, timeout, and queue concurrency
 
 **Conditionally Stored (controlled by privacy setting):**
 - **Download History:** Complete list of URLs, titles, and dates - only stored when "Track and Save Downloads in History" is **enabled**
@@ -258,7 +263,8 @@ Medio supports two modes of operation: **Guest Mode** for immediate local use an
 ### Guest Mode
 
 Launch Medio without signing in to use it immediately. In guest mode:
-- All settings, history, and statistics are stored locally on your device
+- All settings, history, statistics, and full level/rank/XP progression are stored locally on your device
+- A custom profile image can be set directly from the dashboard
 - All 1000+ supported platforms are available for single downloads
 - No account or internet connection is required beyond the download itself
 
@@ -273,10 +279,10 @@ To unlock cloud sync and Premium features, sign in through [Arctisoft Hub](https
 **On Additional Devices:**
 - Install Arctisoft Hub and sign in with the same account
 - Open Medio - your profile syncs automatically from the cloud
-- All settings, history, and statistics are available on the new device
+- All settings, history, and statistics are available on the new authorized device
 
 **Important Notes:**
-- **Basic License:** Cloud profile syncs across all your devices. Settings, history, and statistics are always accessible when signed in.
+- **Basic License:** Cloud profile syncs across your authorized devices. Settings, history, and statistics are accessible when signed in.
 - **Premium License:** Everything in Basic plus playlist downloads, advanced encoding, audio processing, and extended history.
 - **Profile Persistence:** All profiles are retained until the user manually deletes their account.
 
@@ -332,6 +338,11 @@ Follow these steps to start downloading content:
    - **Select Quality:**
      - Choose your preferred resolution from the available options. Lower quality means smaller file sizes.
 
+   - **Clip & Trim (Single Downloads):**
+     - Right-click the URL field and choose `Clip & Trim` to open the time-range dialog. Enter start and end times in HH:MM:SS format. When media duration is available, the End field can be auto-filled so you only need to type a start time.
+     - Invalid entries show a specific inline error message inside the dialog. An active time range is displayed next to the URL field and can be cleared without reopening the dialog.
+     - Clip & Trim is automatically disabled for playlist downloads so each playlist item downloads in full.
+
 5. **Initiate the Download**
    - Click the `Start Download` button to begin.
    - **Monitor Progress:** Check the progress in the upper-right corner. The process includes:
@@ -347,10 +358,10 @@ Follow these steps to start downloading content:
 The Advanced Settings panel provides granular control over download and conversion parameters:
 
 **Download Configuration:**
-- Quality selection (144p–4320p video, 32k–320k audio)
+- Quality selection (144p–4320p video, format-aware audio quality presets)
 - Download speed limit (1 MB/s to unlimited)
 - Hardware acceleration (NVIDIA NVENC, AMD AMF, Intel QuickSync, CPU-only)
-- Network tuning: concurrent fragments (1–16), retries (5–Infinite), timeout (15–300s)
+- Network tuning: concurrent fragments (1–16), download retries (5–Infinite), fragment retries (5–Infinite), timeout (15–300s), browser cookies (Disabled, Chrome, Edge, Firefox, Brave, Opera, Vivaldi, Chromium)
 - Buffer size (1024–32768 KB)
 - Geo-bypass for region-locked content
 - Subtitle extraction (Disabled, English, Spanish, French, German, Portuguese, Chinese, All Languages)
@@ -362,7 +373,9 @@ The Advanced Settings panel provides granular control over download and conversi
 - FFmpeg presets (Ultrafast–Veryslow), CRF quality (18–35 or Auto), thread count
 - Two-pass encoding (Premium)
 - Deinterlace (Disabled, Auto, Force)
+- Stream Loop (Disabled, 2x, 3x, 5x, 10x) - repeat audio or video output in a single pass
 - Metadata embedding (thumbnails, title, artist)
+- External thumbnail saving (Disabled, JPEG, WebP)
 - Audio normalization (5 intensity levels)
 
 **Audio Processing (Premium):**
@@ -520,15 +533,15 @@ A: Only cloud data (settings, history) is removed. Downloaded files on your devi
 
 **Q: What if I reinstall Windows or switch computers?**
 
-A: If you are signed in through Arctisoft Hub, your cloud profile (settings, statistics, history) is automatically restored when you sign in on a new device or after a reinstall. This applies to both Basic and Premium users. Guest mode stores data locally only, so it does not survive a reinstall or device change.
+A: If you are signed in through Arctisoft Hub, your cloud profile (settings, statistics, history) is automatically restored when you sign in on an authorized device or after a reinstall. This applies to both Basic and Premium users. Guest mode stores data locally only, so it does not survive a reinstall or device change.
 
 **Q: Can I use my license on multiple devices?**
 
-A: Yes. Sign in through Arctisoft Hub on a new device to sync your settings, statistics, and history.
+A: Yes, up to 2 active devices. Sign in through Arctisoft Hub on a new device to sync your settings, statistics, and history; if a third device is authorized, the oldest authorized device may be replaced.
 
 **Q: Does my Premium key work across all Arctisoft-Studio applications?**
 
-A: Each Arctisoft Studio application uses its own independent license key. Purchase a Premium license for Medio through the Hub to unlock all Premium features. Sign in through Arctisoft Hub on any device to restore your Premium access.
+A: Each Arctisoft Studio application uses its own independent license key. Purchase a Premium license for Medio through the Hub to unlock all Premium features. Sign in through Arctisoft Hub on an authorized device to restore your Premium access.
 
 ## **Screenshots**
 
